@@ -1,0 +1,1 @@
+EDDYSTONE_OTHER_LDFLAGS = -framework "CoreBluetooth"

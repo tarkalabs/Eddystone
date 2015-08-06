@@ -1,0 +1,6 @@
+framework module Pods_Eddystone_Tests {
+  umbrella header "Pods-Eddystone_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -2,11 +2,10 @@ source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
 
 target 'Eddystone_Example', :exclusive => true do
-  pod "Eddystone", :path => "../"
+    pod "SignalStrength"
+    pod "Eddystone", :path => "../"
 end
 
 target 'Eddystone_Tests', :exclusive => true do
-  pod "Eddystone", :path => "../"
-
-  
+    pod "Eddystone", :path => "../"
 end
