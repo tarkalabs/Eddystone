@@ -20,7 +20,7 @@ Eddystone.Scanner.start(self)
 Then get an array of the URLs with
 
 ```swift
-Eddystone.Scanner.urls()
+Eddystone.Scanner.urls
 ```
 
 To start the scanner, you will need to provide an `Eddystone.ScannerDelegate` delegate that will be notified to changes in the nearby URLs
@@ -31,7 +31,7 @@ public protocol ScannerDelegate {
 }
 ```
 
-Objects of the Url class returned by `Eddystone.Scanner.urls()` have two properties:
+Objects of the `Url` class returned by `Eddystone.Scanner.urls` have two properties:
 
 ```swift
 var url: NSURL

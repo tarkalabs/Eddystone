@@ -12,6 +12,8 @@ public class Scanner: NSObject {
     var centralManager = CBCentralManager()
     var discoveredBeacons = [NSUUID: Beacon]()
     var delegate: ScannerDelegate?
+    var beaconTimers = [NSUUID: NSTimer]()
+    
     
     //MARK: Class
     public class func start(delegate: ScannerDelegate) {
@@ -21,33 +23,36 @@ public class Scanner: NSObject {
         
     }
     
-    class func beacons() -> [Beacon] {
-        var orderedBeacons = [Beacon]()
-        
-        for (identifier, beacon) in self.shared.discoveredBeacons {
-            orderedBeacons.append(beacon)
+    public class var urls: [Url] {
+        get {
+            var urls: [Url] = []
+            
+            
+            for beacon in self.beacons {
+                if let beacon = beacon as? UrlBeacon {
+                    var url = Url(url: beacon.url, signalStrength: beacon.signalStrength)
+                    urls.append(url)
+                }
+            }
+            
+            return urls
         }
-        
-        orderedBeacons.sort { beacon1, beacon2 in
-            return beacon1.rssi > beacon2.rssi
-        }
-        
-        return orderedBeacons
     }
     
-    public class func urls() -> [Url] {
-        
-        var urls: [Url] = []
-    
-        
-        for beacon in self.beacons() {
-            if let beacon = beacon as? UrlBeacon {
-                var url = Url(url: beacon.url, signalStrength: beacon.signalStrength)
-                urls.append(url)
+    class var beacons: [Beacon] {
+        get {
+            var orderedBeacons = [Beacon]()
+            
+            for (identifier, beacon) in self.shared.discoveredBeacons {
+                orderedBeacons.append(beacon)
             }
+            
+            orderedBeacons.sort { beacon1, beacon2 in
+                return beacon1.accuracy < beacon2.accuracy
+            }
+            
+            return orderedBeacons
         }
-        
-        return urls
     }
     
 }
@@ -74,8 +79,19 @@ extension Scanner: CBCentralManagerDelegate {
                 self.discoveredBeacons[peripheral.identifier] = beacon
             }
         }
+        
+        self.beaconTimers[peripheral.identifier]?.invalidate()
+        self.beaconTimers[peripheral.identifier] = NSTimer.scheduledTimerWithTimeInterval(10, target: self, selector: Selector("beaconTimerExpire:"), userInfo: peripheral.identifier, repeats: false)
     }
     
+    @objc func beaconTimerExpire(timer: NSTimer) {
+        if let identifier = timer.userInfo as? NSUUID {
+            log("Beacon lost")
+            
+            self.discoveredBeacons.removeValueForKey(identifier)
+            self.delegate?.eddystoneUrlsDidChange()
+        }
+    }
 }
 
 extension Scanner: BeaconDelegate {

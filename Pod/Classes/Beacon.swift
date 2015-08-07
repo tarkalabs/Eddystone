@@ -32,21 +32,24 @@ public class Beacon {
         case URL, UID, TLM
     }
     
-    public enum SignalStrength: String {
-        case Excellent = "Excellent"
-        case VeryGood = "Very Good"
-        case Good = "Good"
-        case Low = "Low"
-        case VeryLow = "Very Low"
-        case NoSignal = "No Signal"
-        case Unknown = "Unknown"
+    public enum SignalStrength: Int {
+        case Excellent = 6
+        case VeryGood = 5
+        case Good = 4
+        case Low = 3
+        case VeryLow = 2
+        case NoSignal = 1
+        case Unknown = 0
     }
     
     //MARK: Properties
     var delegate: BeaconDelegate?
     
-    var rssi: Double
     var txPower: Int
+    
+    var rssi: Double
+    var previousRssis = [Double]()
+    
     var accuracy: Double {
         get {
             return Beacon.calculateAccuracy(txPower: self.txPower, rssi: self.rssi)
@@ -54,13 +57,11 @@ public class Beacon {
     }
     var signalStrength: SignalStrength = .Unknown {
         didSet {
-            log("Signal strength changed: \(self.signalStrength.rawValue)")
             self.notifyChange()
         }
     }
     
-    var previousRssis = [Double]()
-    
+    //MARK: Initializations
     init(rssi: Double, txPower: Int) {
         self.rssi = rssi
         self.txPower = txPower
