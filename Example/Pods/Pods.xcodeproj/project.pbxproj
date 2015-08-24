@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		00386BBA14C8E18A6A8B49066C3379AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C53C8C7EB304BB437D2149AC17A0D082 /* Foundation.framework */; };
 		04938664F733A43BCCBB0BB6470DBBCB /* Eddystone.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 96C96360B4DF1C05B75DDDC434784B9B /* Eddystone.bundle */; };
-		078B955537EF4BDF14A7895E029D04FB /* UrlBeacon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852431166F419A905E54F7E565D213A2 /* UrlBeacon.swift */; };
 		12A99ED4CB792226F5CF73F98696A02D /* SignalStrength-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 267F36AC3909FCA7CC578D70AEFE54A9 /* SignalStrength-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1651150BDD381B6EB7D044238DAC0CAB /* Scanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4691CE6A08F3DD5E767EE24056CBABE1 /* Scanner.swift */; };
 		1DC3862BAF7F689ADECFB96E13942A85 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C53C8C7EB304BB437D2149AC17A0D082 /* Foundation.framework */; };
@@ -26,6 +25,15 @@
 		A9030A681DCFE57154E520CB29004CC2 /* SignalStrength-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D0DB43343BDF884B37D59A9F297BE4 /* SignalStrength-dummy.m */; };
 		ACCF37ECECF615E62D619B17294BF195 /* SignalStrength.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F19466BAB28CB02C0CB527B1AAE4DA53 /* SignalStrength.bundle */; };
 		C10213BE1E5A5F5C2D4DB4C0414EA894 /* Beacon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B0AA9BEEC1033D2E76CD585BEC39E61 /* Beacon.swift */; };
+		C377AE1E1B8B7638001ADB59 /* Frame.swift in Sources */ = {isa = PBXBuildFile; fileRef = C377AE1D1B8B7638001ADB59 /* Frame.swift */; };
+		C377AE201B8B76E3001ADB59 /* UrlFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = C377AE1F1B8B76E3001ADB59 /* UrlFrame.swift */; };
+		C377AE221B8B791D001ADB59 /* UidFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = C377AE211B8B791D001ADB59 /* UidFrame.swift */; };
+		C377AE241B8B7950001ADB59 /* TlmFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = C377AE231B8B7950001ADB59 /* TlmFrame.swift */; };
+		C377AE261B8B98C3001ADB59 /* DoubleExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C377AE251B8B98C3001ADB59 /* DoubleExtensions.swift */; };
+		C377AE281B8B99A0001ADB59 /* IntExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C377AE271B8B99A0001ADB59 /* IntExtensions.swift */; };
+		C377AE2A1B8B9EAB001ADB59 /* Uid.swift in Sources */ = {isa = PBXBuildFile; fileRef = C377AE291B8B9EAB001ADB59 /* Uid.swift */; };
+		C377AE2E1B8BA2B0001ADB59 /* Generic.swift in Sources */ = {isa = PBXBuildFile; fileRef = C377AE2D1B8BA2B0001ADB59 /* Generic.swift */; };
+		C377AE301B8BA9B6001ADB59 /* NSTimeIntervalExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C377AE2F1B8BA9B6001ADB59 /* NSTimeIntervalExtensions.swift */; };
 		C3AC64951B62C08000AC51A7 /* Object.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AC64941B62C08000AC51A7 /* Object.swift */; };
 		C3AC64981B62C09700AC51A7 /* Url.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AC64971B62C09700AC51A7 /* Url.swift */; };
 		D36654FF0C7FA583F6A687ABCF125806 /* SignalStrengthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E17708A47753D1B4FD7B0E1551F9AE3 /* SignalStrengthView.swift */; };
@@ -94,7 +102,6 @@
 		6E17708A47753D1B4FD7B0E1551F9AE3 /* SignalStrengthView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SignalStrengthView.swift; path = Pod/Classes/SignalStrengthView.swift; sourceTree = "<group>"; };
 		6E59E6FB229F69739F403D328B6F7092 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		707D6C37F6DB327C604399F78BA3B14B /* Pods-Eddystone_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Eddystone_Example.modulemap"; sourceTree = "<group>"; };
-		852431166F419A905E54F7E565D213A2 /* UrlBeacon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UrlBeacon.swift; sourceTree = "<group>"; };
 		85FB954369155A7E7740F81BAF4E15E1 /* Eddystone-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Eddystone-Private.xcconfig"; sourceTree = "<group>"; };
 		92261D18A46F7795AA208BE0AFB6D7ED /* Pods_Eddystone_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Eddystone_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		96C96360B4DF1C05B75DDDC434784B9B /* Eddystone.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Eddystone.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -109,6 +116,15 @@
 		B8CD5DEDCB263BB15E372E8CEE021A97 /* SignalStrength.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SignalStrength.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCA4B400482C9743F2B9A8AF45C8D5A3 /* Pods-Eddystone_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Eddystone_Tests-dummy.m"; sourceTree = "<group>"; };
 		BD9857EC32AD8A9A88E9F0771983EE80 /* SignalStrength-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SignalStrength-prefix.pch"; sourceTree = "<group>"; };
+		C377AE1D1B8B7638001ADB59 /* Frame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Frame.swift; sourceTree = "<group>"; };
+		C377AE1F1B8B76E3001ADB59 /* UrlFrame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UrlFrame.swift; sourceTree = "<group>"; };
+		C377AE211B8B791D001ADB59 /* UidFrame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UidFrame.swift; sourceTree = "<group>"; };
+		C377AE231B8B7950001ADB59 /* TlmFrame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TlmFrame.swift; sourceTree = "<group>"; };
+		C377AE251B8B98C3001ADB59 /* DoubleExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoubleExtensions.swift; sourceTree = "<group>"; };
+		C377AE271B8B99A0001ADB59 /* IntExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntExtensions.swift; sourceTree = "<group>"; };
+		C377AE291B8B9EAB001ADB59 /* Uid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Uid.swift; sourceTree = "<group>"; };
+		C377AE2D1B8BA2B0001ADB59 /* Generic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Generic.swift; sourceTree = "<group>"; };
+		C377AE2F1B8BA9B6001ADB59 /* NSTimeIntervalExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSTimeIntervalExtensions.swift; sourceTree = "<group>"; };
 		C3AC64941B62C08000AC51A7 /* Object.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Object.swift; sourceTree = "<group>"; };
 		C3AC64971B62C09700AC51A7 /* Url.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Url.swift; sourceTree = "<group>"; };
 		C506EAEB8E2E4BCEAEBD459F4F7A8BFE /* Pods-Eddystone_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Eddystone_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -285,18 +301,23 @@
 			path = "Example/Pods/Target Support Files/Eddystone";
 			sourceTree = "<group>";
 		};
-		C3AC64921B62C02600AC51A7 /* Beacons */ = {
+		C377AE1C1B8B762B001ADB59 /* Frames */ = {
 			isa = PBXGroup;
 			children = (
-				6B0AA9BEEC1033D2E76CD585BEC39E61 /* Beacon.swift */,
-				852431166F419A905E54F7E565D213A2 /* UrlBeacon.swift */,
+				C377AE1D1B8B7638001ADB59 /* Frame.swift */,
+				C377AE1F1B8B76E3001ADB59 /* UrlFrame.swift */,
+				C377AE211B8B791D001ADB59 /* UidFrame.swift */,
+				C377AE231B8B7950001ADB59 /* TlmFrame.swift */,
 			);
-			name = Beacons;
+			name = Frames;
 			sourceTree = "<group>";
 		};
 		C3AC64931B62C02C00AC51A7 /* Extras */ = {
 			isa = PBXGroup;
 			children = (
+				C377AE251B8B98C3001ADB59 /* DoubleExtensions.swift */,
+				C377AE271B8B99A0001ADB59 /* IntExtensions.swift */,
+				C377AE2F1B8BA9B6001ADB59 /* NSTimeIntervalExtensions.swift */,
 				D6A7F01C1BCD1E8A94CB4ED83A4C9D79 /* CoreBluetoothExtensions.swift */,
 			);
 			name = Extras;
@@ -307,6 +328,8 @@
 			children = (
 				C3AC64941B62C08000AC51A7 /* Object.swift */,
 				C3AC64971B62C09700AC51A7 /* Url.swift */,
+				C377AE291B8B9EAB001ADB59 /* Uid.swift */,
+				C377AE2D1B8BA2B0001ADB59 /* Generic.swift */,
 			);
 			name = Objects;
 			sourceTree = "<group>";
@@ -360,8 +383,9 @@
 		FB6C7302BAF6CF12ECF4BC342D68D48B /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				C3AC64921B62C02600AC51A7 /* Beacons */,
+				C377AE1C1B8B762B001ADB59 /* Frames */,
 				C3AC64931B62C02C00AC51A7 /* Extras */,
+				6B0AA9BEEC1033D2E76CD585BEC39E61 /* Beacon.swift */,
 				53904BB588FF15AF8E9E3C1B696E6B65 /* Global.swift */,
 				4691CE6A08F3DD5E767EE24056CBABE1 /* Scanner.swift */,
 				C3AC64961B62C08D00AC51A7 /* Objects */,
@@ -607,14 +631,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C377AE1E1B8B7638001ADB59 /* Frame.swift in Sources */,
 				C10213BE1E5A5F5C2D4DB4C0414EA894 /* Beacon.swift in Sources */,
 				6B5E7AC0A1B7D35BE5B64DE5F416B855 /* CoreBluetoothExtensions.swift in Sources */,
 				2B94302172D4681506257BB0AF0495B4 /* Eddystone-dummy.m in Sources */,
+				C377AE261B8B98C3001ADB59 /* DoubleExtensions.swift in Sources */,
+				C377AE2E1B8BA2B0001ADB59 /* Generic.swift in Sources */,
 				C3AC64951B62C08000AC51A7 /* Object.swift in Sources */,
 				2E5852B9395142B4D5CF8FDFF8F2735C /* Global.swift in Sources */,
+				C377AE281B8B99A0001ADB59 /* IntExtensions.swift in Sources */,
 				1651150BDD381B6EB7D044238DAC0CAB /* Scanner.swift in Sources */,
-				078B955537EF4BDF14A7895E029D04FB /* UrlBeacon.swift in Sources */,
+				C377AE221B8B791D001ADB59 /* UidFrame.swift in Sources */,
+				C377AE2A1B8B9EAB001ADB59 /* Uid.swift in Sources */,
+				C377AE241B8B7950001ADB59 /* TlmFrame.swift in Sources */,
 				C3AC64981B62C09700AC51A7 /* Url.swift in Sources */,
+				C377AE301B8BA9B6001ADB59 /* NSTimeIntervalExtensions.swift in Sources */,
+				C377AE201B8B76E3001ADB59 /* UrlFrame.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,3 +1,11 @@
+/**
+    CoreBluetoothExtensions.swift
+
+    Easily identify which state a CBCentralManager or CBPeripheralManager is in
+
+    <https://gist.github.com/f6ba585244afa80b06d2.git>
+*/
+
 import CoreBluetooth
 
 extension CBCentralManager {

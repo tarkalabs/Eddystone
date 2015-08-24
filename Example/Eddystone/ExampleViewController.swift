@@ -15,13 +15,14 @@ class ExampleViewController: UIViewController {
     @IBOutlet weak var mainTableView: UITableView!
     
     //MARK: Properties
-    var urls = Eddystone.Scanner.urls()
+    var urls = Eddystone.Scanner.nearbyUrls
     var previousUrls: [Eddystone.Url] = []
     
     //MARK: Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        Eddystone.logging = true
         Eddystone.Scanner.start(self)
         
         self.mainTableView.rowHeight = UITableViewAutomaticDimension
@@ -32,10 +33,9 @@ class ExampleViewController: UIViewController {
 
 extension ExampleViewController: Eddystone.ScannerDelegate {
     
-    func eddystoneUrlsDidChange() {
-        
+    func eddystoneNearbyDidChange() {
         self.previousUrls = self.urls
-        self.urls = Eddystone.Scanner.urls()
+        self.urls = Eddystone.Scanner.nearbyUrls
         
         self.mainTableView.switchDataSourceFrom(self.previousUrls, to: self.urls, withAnimation: .Top)
     }
@@ -55,6 +55,16 @@ extension ExampleViewController: UITableViewDataSource {
         var url = self.urls[indexPath.row]
         
         cell.mainLabel.text = url.url.absoluteString
+        
+        if  let battery = url.battery,
+            let temp = url.temperature,
+            let advCount = url.advertisementCount,
+            let onTime = url.onTime {
+                cell.detailLabel.text = "Battery: \(battery)% \nTemp: \(temp)˚C \nPackets Sent: \(advCount) \nUptime: \(onTime.readable)"
+        } else {
+            cell.detailLabel.text = "No telemetry data"
+        }
+        
         
         
         switch url.signalStrength {

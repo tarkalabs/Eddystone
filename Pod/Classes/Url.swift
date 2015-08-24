@@ -1,17 +1,18 @@
-public class Url: Object, Equatable {
+public class Url: Object {
     
     //MARK: Properties
-    public var url: NSURL
+    private(set) public var url: NSURL
     
     //MARK: Initializations
-    init(url: NSURL, signalStrength: Beacon.SignalStrength) {
+    init(url: NSURL, signalStrength: Beacon.SignalStrength, identifier: String) {
         self.url = url
         
-        super.init(signalStrength: signalStrength)
+        var urlString = ""
+        if let absoluteString = url.absoluteString {
+            urlString = absoluteString
+        }
+        
+        super.init(signalStrength: signalStrength, identifier: urlString + identifier)
     }
     
-}
-
-public func ==(lhs: Url, rhs: Url) -> Bool {
-    return lhs.url.absoluteString == rhs.url.absoluteString
 }

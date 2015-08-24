@@ -13,6 +13,7 @@ class ExampleTableViewCell: UITableViewCell {
 
     //MARK: Interface
     @IBOutlet weak var mainLabel: UILabel!
+    @IBOutlet weak var detailLabel: UILabel!
     @IBOutlet weak var signalStrengthView: SignalStrengthView!
     
 }

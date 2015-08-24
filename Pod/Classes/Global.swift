@@ -1,5 +1,15 @@
 import Foundation
 
+public var logging = false
+
 func log(message: AnyObject) {
-    println("[Eddystone] \(message)")
+    if logging {
+        println("[Eddystone] \(message)")
+    }
 }
+
+enum FrameType {
+    case URL, UID, TLM
+}
+
+typealias Byte = Int
