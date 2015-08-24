@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BE11F9DA02CA3982019A50FC"
+               BlueprintIdentifier = "9A7196664BC71D1C19642B39"
                BuildableName = "Eddystone.framework"
                BlueprintName = "Eddystone"
                ReferencedContainer = "container:Pods.xcodeproj">

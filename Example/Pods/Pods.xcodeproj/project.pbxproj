@@ -7,396 +7,372 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00386BBA14C8E18A6A8B49066C3379AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C53C8C7EB304BB437D2149AC17A0D082 /* Foundation.framework */; };
-		04938664F733A43BCCBB0BB6470DBBCB /* Eddystone.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 96C96360B4DF1C05B75DDDC434784B9B /* Eddystone.bundle */; };
-		12A99ED4CB792226F5CF73F98696A02D /* SignalStrength-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 267F36AC3909FCA7CC578D70AEFE54A9 /* SignalStrength-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1651150BDD381B6EB7D044238DAC0CAB /* Scanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4691CE6A08F3DD5E767EE24056CBABE1 /* Scanner.swift */; };
-		1DC3862BAF7F689ADECFB96E13942A85 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C53C8C7EB304BB437D2149AC17A0D082 /* Foundation.framework */; };
-		2B94302172D4681506257BB0AF0495B4 /* Eddystone-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A1BAF571AC45DD416B2F4BDAC70E8636 /* Eddystone-dummy.m */; };
-		2E5852B9395142B4D5CF8FDFF8F2735C /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53904BB588FF15AF8E9E3C1B696E6B65 /* Global.swift */; };
-		3A163CD7D19FCAC69401AF1996AAA38D /* Pods-Eddystone_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FBFFEA58D836C9022D0199BF69B69452 /* Pods-Eddystone_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3AFB3712FDD3D0E8C3A0F2A4DC359B70 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63197C3F7F1B301E0153BE777EAA9358 /* CoreBluetooth.framework */; };
-		551DC12DD5E4B1FDC3D008A97C56BA5E /* Pods-Eddystone_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F7359B0051B71119DF87E0007449B138 /* Pods-Eddystone_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6B5E7AC0A1B7D35BE5B64DE5F416B855 /* CoreBluetoothExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A7F01C1BCD1E8A94CB4ED83A4C9D79 /* CoreBluetoothExtensions.swift */; };
-		72AA469FF0BEA2914C4D38C5E9C0D13B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C53C8C7EB304BB437D2149AC17A0D082 /* Foundation.framework */; };
-		7A9D1C1907ECB24D258350937567DF1E /* Pods-Eddystone_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6208A51C10C89025DFC74BF20A6FA6F1 /* Pods-Eddystone_Example-dummy.m */; };
-		8BB240872A665434F80009E9A0AC2773 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 978034C0138DF7B2DC96DB9F6D4ABF5B /* UIKit.framework */; };
-		9738E8F10C136B1E4A92B113F8E70E12 /* Pods-Eddystone_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA4B400482C9743F2B9A8AF45C8D5A3 /* Pods-Eddystone_Tests-dummy.m */; };
-		A9030A681DCFE57154E520CB29004CC2 /* SignalStrength-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D0DB43343BDF884B37D59A9F297BE4 /* SignalStrength-dummy.m */; };
-		ACCF37ECECF615E62D619B17294BF195 /* SignalStrength.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F19466BAB28CB02C0CB527B1AAE4DA53 /* SignalStrength.bundle */; };
-		C10213BE1E5A5F5C2D4DB4C0414EA894 /* Beacon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B0AA9BEEC1033D2E76CD585BEC39E61 /* Beacon.swift */; };
-		C377AE1E1B8B7638001ADB59 /* Frame.swift in Sources */ = {isa = PBXBuildFile; fileRef = C377AE1D1B8B7638001ADB59 /* Frame.swift */; };
-		C377AE201B8B76E3001ADB59 /* UrlFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = C377AE1F1B8B76E3001ADB59 /* UrlFrame.swift */; };
-		C377AE221B8B791D001ADB59 /* UidFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = C377AE211B8B791D001ADB59 /* UidFrame.swift */; };
-		C377AE241B8B7950001ADB59 /* TlmFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = C377AE231B8B7950001ADB59 /* TlmFrame.swift */; };
-		C377AE261B8B98C3001ADB59 /* DoubleExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C377AE251B8B98C3001ADB59 /* DoubleExtensions.swift */; };
-		C377AE281B8B99A0001ADB59 /* IntExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C377AE271B8B99A0001ADB59 /* IntExtensions.swift */; };
-		C377AE2A1B8B9EAB001ADB59 /* Uid.swift in Sources */ = {isa = PBXBuildFile; fileRef = C377AE291B8B9EAB001ADB59 /* Uid.swift */; };
-		C377AE2E1B8BA2B0001ADB59 /* Generic.swift in Sources */ = {isa = PBXBuildFile; fileRef = C377AE2D1B8BA2B0001ADB59 /* Generic.swift */; };
-		C377AE301B8BA9B6001ADB59 /* NSTimeIntervalExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C377AE2F1B8BA9B6001ADB59 /* NSTimeIntervalExtensions.swift */; };
-		C3AC64951B62C08000AC51A7 /* Object.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AC64941B62C08000AC51A7 /* Object.swift */; };
-		C3AC64981B62C09700AC51A7 /* Url.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AC64971B62C09700AC51A7 /* Url.swift */; };
-		D36654FF0C7FA583F6A687ABCF125806 /* SignalStrengthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E17708A47753D1B4FD7B0E1551F9AE3 /* SignalStrengthView.swift */; };
-		D8562C2DB31C7EBE17BD97766808A599 /* Eddystone-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DC66024C7D1BACA06AAA92A450568B73 /* Eddystone-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DECBD622089CA1BBBA15F09EEB2940E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C53C8C7EB304BB437D2149AC17A0D082 /* Foundation.framework */; };
+		0928D12072635DB6FC15AB980B4966AD /* Pods-Eddystone_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 220844B519CEEB5724D7AA48003C545D /* Pods-Eddystone_Tests-dummy.m */; };
+		0BAE60A98AAA40DCAB826CE30674ACF0 /* Scanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCAD27D9E44ECC28B092A5766F49D73 /* Scanner.swift */; };
+		2399E64ADDAF7D62AE3BEAEAD178EA5B /* IntExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A3707C45FD0875A5A08A8B0A8A5D002 /* IntExtensions.swift */; };
+		2D656F0E49972FD36B68F79C8800EEE5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73CA8C9DB3D66B0F46368C0800F19EE3 /* Foundation.framework */; };
+		2E2700900793CA78FF4039C471BF60BC /* DoubleExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5F79800CF6070D5FC9F7512BE6FA75 /* DoubleExtensions.swift */; };
+		3185BADA3E55C571BAA733A4DB87FA54 /* Object.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47BD21F999AF629340D5B0E3A522E9F /* Object.swift */; };
+		460AB94DEA402962BEC8F6318492C1A4 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F9B9A1966426DC49702E6E3AF9D2B3E /* CoreBluetooth.framework */; };
+		4B8603D7596489A4A6BCE71FF2B913C1 /* UrlFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F51F84C19BFC5541BA829C574EF0741 /* UrlFrame.swift */; };
+		52A737A66143BA3618A983CFCCDAFD46 /* NSTimeIntervalExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296426AB412FFB74750943A3774B15FF /* NSTimeIntervalExtensions.swift */; };
+		5325EA82C63BCEBACA4E68D70726868D /* SignalStrength-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F75CC38DE4E747876B484A77E84D29CB /* SignalStrength-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		54540601DFFDD9EF45DA2D3740BF954F /* Eddystone-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 348201FF3C2D5AFEAE2001F89C25D02F /* Eddystone-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56E3B5796C464D6C8937C0A3C4594346 /* SignalStrengthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B102BC23DBE58ED50464232F32A7A1 /* SignalStrengthView.swift */; };
+		571B7479482C59AFE39F49E72A9175F2 /* UidFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06DB8D7ECA15F4849ABA28A36E2E502 /* UidFrame.swift */; };
+		5B1021220D248660BB8ED06A345FBCFD /* SignalStrength-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C5056CE7CE8E67414C9D93ED95098397 /* SignalStrength-dummy.m */; };
+		61D9D86D07E8F059C3F1811F05B507F8 /* CoreBluetoothExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79825B702985EF129F963DE976344F7C /* CoreBluetoothExtensions.swift */; };
+		6771F8F967AA119F3D5DBA3240F70609 /* SignalStrength.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2B94A56027EDDCE74A51761F0021F2B8 /* SignalStrength.bundle */; };
+		6D93EF24AE0E0A3AEEBEB0B4F2082751 /* Pods-Eddystone_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B022066F8222C41EE25015E9B964FED /* Pods-Eddystone_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7169623122AF6CF9B72FCF0114418A3C /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09103EB66D8B312C0B34E68DBC332CB /* Global.swift */; };
+		83837EB288A7AB33CC90C0FDC73D59EB /* TlmFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D4E82E36D416DF3BF029C975C29A7B /* TlmFrame.swift */; };
+		84A78E8CF852BCB731EC782BEC49566A /* Frame.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B0A907CFA67C3C8D9C7694580A5847 /* Frame.swift */; };
+		90F849247F571477530C84CDB0D07A9B /* Eddystone-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 253D315CBFF4F3C1754786AD389B0806 /* Eddystone-dummy.m */; };
+		948E2176E47F37A9FC94C5F9A78D13B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73CA8C9DB3D66B0F46368C0800F19EE3 /* Foundation.framework */; };
+		9818691E2FBB465E15F66DF98DB03DF0 /* Pods-Eddystone_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F9FEBFE2610D89F8B71DDF4E312E830 /* Pods-Eddystone_Example-dummy.m */; };
+		A634A79044BFD803CD2A19DE03C248F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73CA8C9DB3D66B0F46368C0800F19EE3 /* Foundation.framework */; };
+		BAFDAF72C3D1701DC7B520FF69957754 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08A6458C4386DC4DD5AC234AA3CD2010 /* UIKit.framework */; };
+		BBC8B05732B046986664EA7294F1312D /* Pods-Eddystone_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 512CFA903BD8C51EB7B869483DE9D97C /* Pods-Eddystone_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C513BD05118BFACBB76B62D6098C1EE2 /* Beacon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030964D04907F98ECA815EFD3057E6EC /* Beacon.swift */; };
+		D4CD254F802CBF0C5FB5D566AB2118FF /* Eddystone.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B9EFFD22B5AF92395184D8E3A0D9F8C0 /* Eddystone.bundle */; };
+		D649DA86F4AE0E04E96695EBC3B402C6 /* Url.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6CBF96908F58A047A7C4045CB96B08 /* Url.swift */; };
+		E0A3C23193B354849CD89746FBB71872 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73CA8C9DB3D66B0F46368C0800F19EE3 /* Foundation.framework */; };
+		EB99FA4CC554B42EE6F798EE11E7C36D /* Generic.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA33DC991DE96277EE907756B3CE7CA4 /* Generic.swift */; };
+		F622D380B19FDAE38161EB9C7F994B66 /* Uid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2083F366969A727A085A8DCE1D65D9DD /* Uid.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		182E4FF83C6383079574129CE526C5F0 /* PBXContainerItemProxy */ = {
+		069E5F9EF5D6DE736CBC2415C526BBFF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E841FA27B0A36915A5E185092F308060;
-			remoteInfo = "SignalStrength-SignalStrength";
-		};
-		3D9D8AEC47DAF773AA6E843CB849D627 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E72D1D30AC78E5682DB9AE6578D1D861;
-			remoteInfo = Eddystone;
-		};
-		A2108BED6419FB4EAE147A0E4D328F29 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 850ED1C8B0FFF2B7CFF6E4AFC7B2486F;
+			remoteGlobalIDString = C2D92FC6E176FC534191399B13FACEDF;
 			remoteInfo = "Eddystone-Eddystone";
 		};
-		C30C5D3ECB3C575B9A10BDC1B6099DB4 /* PBXContainerItemProxy */ = {
+		36F442581FA53E42A74A5C038F5874DD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D2971E54F72A7CB14370EBE35E568EC3;
+			remoteGlobalIDString = 8CDDCA07A86564F0274E9C4540B61C54;
+			remoteInfo = Eddystone;
+		};
+		77050165691740C0B46CF44E0BDDFE33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED89C913CE9FDF546C0B49E523092F0F;
 			remoteInfo = SignalStrength;
 		};
-		F978DD0ECC86B888238BE10B36968E3D /* PBXContainerItemProxy */ = {
+		826B03E7728621C1078FB35205B99C64 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E72D1D30AC78E5682DB9AE6578D1D861;
+			remoteGlobalIDString = 8CDDCA07A86564F0274E9C4540B61C54;
 			remoteInfo = Eddystone;
+		};
+		B200D40E743EDCDAAA58F80FD41E284A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBB1AEA63969384DE31E68A9E23987F8;
+			remoteInfo = "SignalStrength-SignalStrength";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0F8595BC499E2F656BFD1408E4CD49F4 /* Pods-Eddystone_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Eddystone_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		15B4A0252EA0969C86D164061AE8F6BF /* Pods-Eddystone_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Eddystone_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		16FBAF2877D50A4CF87316CABB551384 /* Pods_Eddystone_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Eddystone_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		17E90297CAEB61C550CB49DDE226F0D4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1AEFEFFFA603FB00B4A99E5D048206C6 /* SignalStrength.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SignalStrength.xcconfig; sourceTree = "<group>"; };
-		267F36AC3909FCA7CC578D70AEFE54A9 /* SignalStrength-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SignalStrength-umbrella.h"; sourceTree = "<group>"; };
-		280D54A520B5BF2BBE7106C7944B9A7C /* Pods-Eddystone_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Eddystone_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		38D0DB43343BDF884B37D59A9F297BE4 /* SignalStrength-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SignalStrength-dummy.m"; sourceTree = "<group>"; };
-		3BDE2EEA1546BF6C6C74D12BEC327760 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		43056A4326E12333B05E4251E52AA77D /* Eddystone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Eddystone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4691CE6A08F3DD5E767EE24056CBABE1 /* Scanner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Scanner.swift; sourceTree = "<group>"; };
-		53904BB588FF15AF8E9E3C1B696E6B65 /* Global.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
-		58A92ECDBADF258369F9821A2F3FC5CB /* Pods-Eddystone_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Eddystone_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		6208A51C10C89025DFC74BF20A6FA6F1 /* Pods-Eddystone_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Eddystone_Example-dummy.m"; sourceTree = "<group>"; };
-		63197C3F7F1B301E0153BE777EAA9358 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CoreBluetooth.framework; sourceTree = DEVELOPER_DIR; };
-		644AAE61780F833BDDB339017384B6E0 /* Pods-Eddystone_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Eddystone_Example.release.xcconfig"; sourceTree = "<group>"; };
-		6758F0237DD55024CAB95EA040818576 /* Pods-Eddystone_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Eddystone_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		6B0AA9BEEC1033D2E76CD585BEC39E61 /* Beacon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Beacon.swift; sourceTree = "<group>"; };
-		6C1F3910D6C5DF884A299FB277111F9F /* SignalStrength-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "SignalStrength-Private.xcconfig"; sourceTree = "<group>"; };
-		6E17708A47753D1B4FD7B0E1551F9AE3 /* SignalStrengthView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SignalStrengthView.swift; path = Pod/Classes/SignalStrengthView.swift; sourceTree = "<group>"; };
-		6E59E6FB229F69739F403D328B6F7092 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		707D6C37F6DB327C604399F78BA3B14B /* Pods-Eddystone_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Eddystone_Example.modulemap"; sourceTree = "<group>"; };
-		85FB954369155A7E7740F81BAF4E15E1 /* Eddystone-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Eddystone-Private.xcconfig"; sourceTree = "<group>"; };
-		92261D18A46F7795AA208BE0AFB6D7ED /* Pods_Eddystone_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Eddystone_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		96C96360B4DF1C05B75DDDC434784B9B /* Eddystone.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Eddystone.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		978034C0138DF7B2DC96DB9F6D4ABF5B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		9C547D23B1045B34E3BB8B43119A5469 /* Pods-Eddystone_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Eddystone_Tests.modulemap"; sourceTree = "<group>"; };
-		A1BAF571AC45DD416B2F4BDAC70E8636 /* Eddystone-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Eddystone-dummy.m"; sourceTree = "<group>"; };
-		A9B9F769959FC668236F447A8723E4CD /* SignalStrength.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SignalStrength.modulemap; sourceTree = "<group>"; };
-		AC3822AA22CA63D8BE2369850F614EB8 /* Eddystone-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Eddystone-prefix.pch"; sourceTree = "<group>"; };
-		B594254E1644DC19943AFCC8298951FE /* Pods-Eddystone_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Eddystone_Tests-resources.sh"; sourceTree = "<group>"; };
-		B5FE8560D48AACFD39FA339D7DFAD75C /* Pods-Eddystone_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Eddystone_Example-resources.sh"; sourceTree = "<group>"; };
-		B809C8A6C21FE7BBD67109B04D209519 /* Eddystone.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Eddystone.xcconfig; sourceTree = "<group>"; };
-		B8CD5DEDCB263BB15E372E8CEE021A97 /* SignalStrength.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SignalStrength.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BCA4B400482C9743F2B9A8AF45C8D5A3 /* Pods-Eddystone_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Eddystone_Tests-dummy.m"; sourceTree = "<group>"; };
-		BD9857EC32AD8A9A88E9F0771983EE80 /* SignalStrength-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SignalStrength-prefix.pch"; sourceTree = "<group>"; };
-		C377AE1D1B8B7638001ADB59 /* Frame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Frame.swift; sourceTree = "<group>"; };
-		C377AE1F1B8B76E3001ADB59 /* UrlFrame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UrlFrame.swift; sourceTree = "<group>"; };
-		C377AE211B8B791D001ADB59 /* UidFrame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UidFrame.swift; sourceTree = "<group>"; };
-		C377AE231B8B7950001ADB59 /* TlmFrame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TlmFrame.swift; sourceTree = "<group>"; };
-		C377AE251B8B98C3001ADB59 /* DoubleExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoubleExtensions.swift; sourceTree = "<group>"; };
-		C377AE271B8B99A0001ADB59 /* IntExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntExtensions.swift; sourceTree = "<group>"; };
-		C377AE291B8B9EAB001ADB59 /* Uid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Uid.swift; sourceTree = "<group>"; };
-		C377AE2D1B8BA2B0001ADB59 /* Generic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Generic.swift; sourceTree = "<group>"; };
-		C377AE2F1B8BA9B6001ADB59 /* NSTimeIntervalExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSTimeIntervalExtensions.swift; sourceTree = "<group>"; };
-		C3AC64941B62C08000AC51A7 /* Object.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Object.swift; sourceTree = "<group>"; };
-		C3AC64971B62C09700AC51A7 /* Url.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Url.swift; sourceTree = "<group>"; };
-		C506EAEB8E2E4BCEAEBD459F4F7A8BFE /* Pods-Eddystone_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Eddystone_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		C53C8C7EB304BB437D2149AC17A0D082 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		C6A5859C73DD91E18CDFEAB0D2383143 /* Pods-Eddystone_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Eddystone_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C88113A79685B4EFEE7BAD12896829F7 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		CA3E2A9EE016A26A09405076D7596937 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D6A7F01C1BCD1E8A94CB4ED83A4C9D79 /* CoreBluetoothExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CoreBluetoothExtensions.swift; sourceTree = "<group>"; };
-		D7F27FAEBF5801E47A12B50673579259 /* Pods-Eddystone_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Eddystone_Example-frameworks.sh"; sourceTree = "<group>"; };
-		DC66024C7D1BACA06AAA92A450568B73 /* Eddystone-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Eddystone-umbrella.h"; sourceTree = "<group>"; };
-		DCF6ED18F3A438F36BC0D9501707C59F /* Eddystone.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Eddystone.modulemap; sourceTree = "<group>"; };
-		E1634CF1C46B41A3F825B8B0CE67AACD /* Pods-Eddystone_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Eddystone_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		F19466BAB28CB02C0CB527B1AAE4DA53 /* SignalStrength.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SignalStrength.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		F7359B0051B71119DF87E0007449B138 /* Pods-Eddystone_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Eddystone_Example-umbrella.h"; sourceTree = "<group>"; };
-		FBFFEA58D836C9022D0199BF69B69452 /* Pods-Eddystone_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Eddystone_Tests-umbrella.h"; sourceTree = "<group>"; };
+		030964D04907F98ECA815EFD3057E6EC /* Beacon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Beacon.swift; sourceTree = "<group>"; };
+		08A6458C4386DC4DD5AC234AA3CD2010 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		0A3E516773D600A0C07B4B7F00D3F6EA /* Pods_Eddystone_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Eddystone_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		11ED379144CB89A0F164E55D8644340F /* Eddystone-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Eddystone-Private.xcconfig"; sourceTree = "<group>"; };
+		1567D4E496952B3CD836C123FC9A48B0 /* SignalStrength.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SignalStrength.xcconfig; sourceTree = "<group>"; };
+		200ADC89FD06D17F3FDD8B283058950E /* Pods-Eddystone_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Eddystone_Example.modulemap"; sourceTree = "<group>"; };
+		2083F366969A727A085A8DCE1D65D9DD /* Uid.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Uid.swift; sourceTree = "<group>"; };
+		220844B519CEEB5724D7AA48003C545D /* Pods-Eddystone_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Eddystone_Tests-dummy.m"; sourceTree = "<group>"; };
+		24D4E82E36D416DF3BF029C975C29A7B /* TlmFrame.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TlmFrame.swift; sourceTree = "<group>"; };
+		253D315CBFF4F3C1754786AD389B0806 /* Eddystone-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Eddystone-dummy.m"; sourceTree = "<group>"; };
+		296426AB412FFB74750943A3774B15FF /* NSTimeIntervalExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NSTimeIntervalExtensions.swift; sourceTree = "<group>"; };
+		2B94A56027EDDCE74A51761F0021F2B8 /* SignalStrength.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SignalStrength.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		3335AE962D4D7D8F6731DF6142BE950C /* Pods-Eddystone_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Eddystone_Example.release.xcconfig"; sourceTree = "<group>"; };
+		348201FF3C2D5AFEAE2001F89C25D02F /* Eddystone-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Eddystone-umbrella.h"; sourceTree = "<group>"; };
+		394707B396A1008D40A37A2EF0939987 /* Pods-Eddystone_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Eddystone_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		3F51F84C19BFC5541BA829C574EF0741 /* UrlFrame.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UrlFrame.swift; sourceTree = "<group>"; };
+		3F8C1E429F3F0257EF082CC0A874D8C1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F9FEBFE2610D89F8B71DDF4E312E830 /* Pods-Eddystone_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Eddystone_Example-dummy.m"; sourceTree = "<group>"; };
+		46B102BC23DBE58ED50464232F32A7A1 /* SignalStrengthView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SignalStrengthView.swift; path = Pod/Classes/SignalStrengthView.swift; sourceTree = "<group>"; };
+		4710957546E3D703F140FD1C2F9D2E52 /* Eddystone.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Eddystone.xcconfig; sourceTree = "<group>"; };
+		512CFA903BD8C51EB7B869483DE9D97C /* Pods-Eddystone_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Eddystone_Tests-umbrella.h"; sourceTree = "<group>"; };
+		5436F977152FE49E68FA9EA5D4392FEE /* Pods-Eddystone_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Eddystone_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5DE749AA1BFE673C52EDC873F7E12A9E /* Eddystone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Eddystone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		693FAD2E7D12CC4E0FF8AC99D07C51E7 /* Eddystone.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Eddystone.modulemap; sourceTree = "<group>"; };
+		6A3707C45FD0875A5A08A8B0A8A5D002 /* IntExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IntExtensions.swift; sourceTree = "<group>"; };
+		6C61CA1066DB1B84EBB6BB5459DEBE40 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FCAD27D9E44ECC28B092A5766F49D73 /* Scanner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Scanner.swift; sourceTree = "<group>"; };
+		73CA8C9DB3D66B0F46368C0800F19EE3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		79825B702985EF129F963DE976344F7C /* CoreBluetoothExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CoreBluetoothExtensions.swift; sourceTree = "<group>"; };
+		7B022066F8222C41EE25015E9B964FED /* Pods-Eddystone_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Eddystone_Example-umbrella.h"; sourceTree = "<group>"; };
+		7E5F79800CF6070D5FC9F7512BE6FA75 /* DoubleExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DoubleExtensions.swift; sourceTree = "<group>"; };
+		7F9B9A1966426DC49702E6E3AF9D2B3E /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CoreBluetooth.framework; sourceTree = DEVELOPER_DIR; };
+		845C007F85FD96C5E897FDD168F99EFF /* Pods-Eddystone_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Eddystone_Example-resources.sh"; sourceTree = "<group>"; };
+		886007EA2A18F447EFAF7109249A041C /* SignalStrength-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "SignalStrength-Private.xcconfig"; sourceTree = "<group>"; };
+		902F61C9944CBAEEFAA3BB63D9B2B14D /* Pods-Eddystone_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Eddystone_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		91FD2CD3215A98C3C7839689FB229FD9 /* Pods_Eddystone_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Eddystone_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E1F0A209B1E5A24EF3922EF0555D0DF /* Pods-Eddystone_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Eddystone_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		9E6CBF96908F58A047A7C4045CB96B08 /* Url.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Url.swift; sourceTree = "<group>"; };
+		9F7BC7D75DBA386FFB38A8A06B73E83C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A06DB8D7ECA15F4849ABA28A36E2E502 /* UidFrame.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UidFrame.swift; sourceTree = "<group>"; };
+		A8940BAE9446EFAECA6F19CC8FF6A890 /* Pods-Eddystone_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Eddystone_Example-frameworks.sh"; sourceTree = "<group>"; };
+		AF703E089C7B7879AACF60D0D4030AE2 /* Eddystone-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Eddystone-prefix.pch"; sourceTree = "<group>"; };
+		B4F3DE46012F66BA8236C7A22E4F559F /* Pods-Eddystone_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Eddystone_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B519D172BFB2D9722A820F51B8DCCA06 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9EFFD22B5AF92395184D8E3A0D9F8C0 /* Eddystone.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Eddystone.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C09103EB66D8B312C0B34E68DBC332CB /* Global.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		C14C139A8B1D614D41B21AFC4DB88584 /* SignalStrength.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SignalStrength.modulemap; sourceTree = "<group>"; };
+		C47BD21F999AF629340D5B0E3A522E9F /* Object.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Object.swift; sourceTree = "<group>"; };
+		C5056CE7CE8E67414C9D93ED95098397 /* SignalStrength-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SignalStrength-dummy.m"; sourceTree = "<group>"; };
+		D1B2C16D58487A620C09BB930A3DA85E /* Pods-Eddystone_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Eddystone_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		D4EA497A5F8D528F82F7A4727EE0717C /* Pods-Eddystone_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Eddystone_Tests-resources.sh"; sourceTree = "<group>"; };
+		D5FDCFED2319B323E2AA553EE6319E95 /* Pods-Eddystone_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Eddystone_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E02A68703FF6E5C2E1C4C7F183189DAC /* Pods-Eddystone_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Eddystone_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E4D00AF52A0C5DFC8B3AA5BCFA9F4787 /* Pods-Eddystone_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Eddystone_Tests.modulemap"; sourceTree = "<group>"; };
+		EAFE13090D991DCED29518BCE6CA606B /* SignalStrength.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SignalStrength.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F75CC38DE4E747876B484A77E84D29CB /* SignalStrength-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SignalStrength-umbrella.h"; sourceTree = "<group>"; };
+		F9B0A907CFA67C3C8D9C7694580A5847 /* Frame.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Frame.swift; sourceTree = "<group>"; };
+		FA33DC991DE96277EE907756B3CE7CA4 /* Generic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Generic.swift; sourceTree = "<group>"; };
+		FC2B7C08759937248F9DAE8E6520ED1C /* SignalStrength-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SignalStrength-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		33D28EF194877D3C94439ACB1206E1A5 /* Frameworks */ = {
+		2517FF663EA8E503218D83CDBF3F68CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				460AB94DEA402962BEC8F6318492C1A4 /* CoreBluetooth.framework in Frameworks */,
+				948E2176E47F37A9FC94C5F9A78D13B0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		430CF34B6CB1AD619C1B8A7630ECBB64 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		83C2604BEE6B7B9745960837434135FD /* Frameworks */ = {
+		6DE8BB16989EDE23DB96B379C912392F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D656F0E49972FD36B68F79C8800EEE5 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CEFAB3F33E70F179CA5EE356E5FA38A1 /* Frameworks */ = {
+		E6D9428A7DC92505C3865680038083B3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3AFB3712FDD3D0E8C3A0F2A4DC359B70 /* CoreBluetooth.framework in Frameworks */,
-				DECBD622089CA1BBBA15F09EEB2940E5 /* Foundation.framework in Frameworks */,
+				E0A3C23193B354849CD89746FBB71872 /* Foundation.framework in Frameworks */,
+				BAFDAF72C3D1701DC7B520FF69957754 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E04C5F0C396B1FE15918BA36A3A3F7C5 /* Frameworks */ = {
+		E7988FEB66156A9DE00D7114F2E3A13F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				72AA469FF0BEA2914C4D38C5E9C0D13B /* Foundation.framework in Frameworks */,
+				A634A79044BFD803CD2A19DE03C248F9 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E529E5A63ADB13BC07D462083DDBB3EE /* Frameworks */ = {
+		F7E33DECF6FE053E9B7221DE2F171B4D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1DC3862BAF7F689ADECFB96E13942A85 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EA1B450525E8281DCFC7378A25178834 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				00386BBA14C8E18A6A8B49066C3379AC /* Foundation.framework in Frameworks */,
-				8BB240872A665434F80009E9A0AC2773 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0720760E6FAA87218C034E98CCD3509B /* Development Pods */ = {
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				BBC6E596F40C237B1FDEE8CC2D7F101C /* Eddystone */,
+				41375453377F0199A2282E0D7C4087B4 /* iOS */,
 			);
-			name = "Development Pods";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		0981531E1CB5CE749A66DE1F59E784C9 /* Pods-Eddystone_Tests */ = {
+		16B62A78681A5554CD05692C574B83DB /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				6E59E6FB229F69739F403D328B6F7092 /* Info.plist */,
-				9C547D23B1045B34E3BB8B43119A5469 /* Pods-Eddystone_Tests.modulemap */,
-				C6A5859C73DD91E18CDFEAB0D2383143 /* Pods-Eddystone_Tests-acknowledgements.markdown */,
-				0F8595BC499E2F656BFD1408E4CD49F4 /* Pods-Eddystone_Tests-acknowledgements.plist */,
-				BCA4B400482C9743F2B9A8AF45C8D5A3 /* Pods-Eddystone_Tests-dummy.m */,
-				15B4A0252EA0969C86D164061AE8F6BF /* Pods-Eddystone_Tests-frameworks.sh */,
-				B594254E1644DC19943AFCC8298951FE /* Pods-Eddystone_Tests-resources.sh */,
-				FBFFEA58D836C9022D0199BF69B69452 /* Pods-Eddystone_Tests-umbrella.h */,
-				6758F0237DD55024CAB95EA040818576 /* Pods-Eddystone_Tests.debug.xcconfig */,
-				280D54A520B5BF2BBE7106C7944B9A7C /* Pods-Eddystone_Tests.release.xcconfig */,
-			);
-			name = "Pods-Eddystone_Tests";
-			path = "Target Support Files/Pods-Eddystone_Tests";
-			sourceTree = "<group>";
-		};
-		4208422D76D2CDC7FA26690D8E0506B1 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				FB6C7302BAF6CF12ECF4BC342D68D48B /* Classes */,
+				1BC6D2CE4B3C988FD5D26B6F308332D9 /* Classes */,
 			);
 			path = Pod;
 			sourceTree = "<group>";
 		};
-		4C9E8EE8CA82007499A9E8FB88127863 /* Pods-Eddystone_Example */ = {
+		1BC6D2CE4B3C988FD5D26B6F308332D9 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				17E90297CAEB61C550CB49DDE226F0D4 /* Info.plist */,
-				707D6C37F6DB327C604399F78BA3B14B /* Pods-Eddystone_Example.modulemap */,
-				58A92ECDBADF258369F9821A2F3FC5CB /* Pods-Eddystone_Example-acknowledgements.markdown */,
-				E1634CF1C46B41A3F825B8B0CE67AACD /* Pods-Eddystone_Example-acknowledgements.plist */,
-				6208A51C10C89025DFC74BF20A6FA6F1 /* Pods-Eddystone_Example-dummy.m */,
-				D7F27FAEBF5801E47A12B50673579259 /* Pods-Eddystone_Example-frameworks.sh */,
-				B5FE8560D48AACFD39FA339D7DFAD75C /* Pods-Eddystone_Example-resources.sh */,
-				F7359B0051B71119DF87E0007449B138 /* Pods-Eddystone_Example-umbrella.h */,
-				C506EAEB8E2E4BCEAEBD459F4F7A8BFE /* Pods-Eddystone_Example.debug.xcconfig */,
-				644AAE61780F833BDDB339017384B6E0 /* Pods-Eddystone_Example.release.xcconfig */,
+				030964D04907F98ECA815EFD3057E6EC /* Beacon.swift */,
+				79825B702985EF129F963DE976344F7C /* CoreBluetoothExtensions.swift */,
+				7E5F79800CF6070D5FC9F7512BE6FA75 /* DoubleExtensions.swift */,
+				F9B0A907CFA67C3C8D9C7694580A5847 /* Frame.swift */,
+				FA33DC991DE96277EE907756B3CE7CA4 /* Generic.swift */,
+				C09103EB66D8B312C0B34E68DBC332CB /* Global.swift */,
+				6A3707C45FD0875A5A08A8B0A8A5D002 /* IntExtensions.swift */,
+				296426AB412FFB74750943A3774B15FF /* NSTimeIntervalExtensions.swift */,
+				C47BD21F999AF629340D5B0E3A522E9F /* Object.swift */,
+				6FCAD27D9E44ECC28B092A5766F49D73 /* Scanner.swift */,
+				24D4E82E36D416DF3BF029C975C29A7B /* TlmFrame.swift */,
+				2083F366969A727A085A8DCE1D65D9DD /* Uid.swift */,
+				A06DB8D7ECA15F4849ABA28A36E2E502 /* UidFrame.swift */,
+				9E6CBF96908F58A047A7C4045CB96B08 /* Url.swift */,
+				3F51F84C19BFC5541BA829C574EF0741 /* UrlFrame.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		41375453377F0199A2282E0D7C4087B4 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				7F9B9A1966426DC49702E6E3AF9D2B3E /* CoreBluetooth.framework */,
+				73CA8C9DB3D66B0F46368C0800F19EE3 /* Foundation.framework */,
+				08A6458C4386DC4DD5AC234AA3CD2010 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		48EB62639742EB1C41EF46959A92224E /* SignalStrength */ = {
+			isa = PBXGroup;
+			children = (
+				46B102BC23DBE58ED50464232F32A7A1 /* SignalStrengthView.swift */,
+				9014D97319A2F3756E0E40B749267499 /* Support Files */,
+			);
+			path = SignalStrength;
+			sourceTree = "<group>";
+		};
+		4BF7E245E7394FFCB9FF7FA3DCA5709A /* Pods-Eddystone_Example */ = {
+			isa = PBXGroup;
+			children = (
+				6C61CA1066DB1B84EBB6BB5459DEBE40 /* Info.plist */,
+				200ADC89FD06D17F3FDD8B283058950E /* Pods-Eddystone_Example.modulemap */,
+				5436F977152FE49E68FA9EA5D4392FEE /* Pods-Eddystone_Example-acknowledgements.markdown */,
+				394707B396A1008D40A37A2EF0939987 /* Pods-Eddystone_Example-acknowledgements.plist */,
+				3F9FEBFE2610D89F8B71DDF4E312E830 /* Pods-Eddystone_Example-dummy.m */,
+				A8940BAE9446EFAECA6F19CC8FF6A890 /* Pods-Eddystone_Example-frameworks.sh */,
+				845C007F85FD96C5E897FDD168F99EFF /* Pods-Eddystone_Example-resources.sh */,
+				7B022066F8222C41EE25015E9B964FED /* Pods-Eddystone_Example-umbrella.h */,
+				9E1F0A209B1E5A24EF3922EF0555D0DF /* Pods-Eddystone_Example.debug.xcconfig */,
+				3335AE962D4D7D8F6731DF6142BE950C /* Pods-Eddystone_Example.release.xcconfig */,
 			);
 			name = "Pods-Eddystone_Example";
 			path = "Target Support Files/Pods-Eddystone_Example";
 			sourceTree = "<group>";
 		};
-		5E1F3384B1B39575144FEBFCF3210CCC /* Frameworks */ = {
+		599B9318DE19E0ADFE1F99ADC9C6536A /* Pods-Eddystone_Tests */ = {
 			isa = PBXGroup;
 			children = (
-				AE3C420F843D28CC19CB40DCE9D7D8D1 /* iOS */,
+				B519D172BFB2D9722A820F51B8DCCA06 /* Info.plist */,
+				E4D00AF52A0C5DFC8B3AA5BCFA9F4787 /* Pods-Eddystone_Tests.modulemap */,
+				D5FDCFED2319B323E2AA553EE6319E95 /* Pods-Eddystone_Tests-acknowledgements.markdown */,
+				E02A68703FF6E5C2E1C4C7F183189DAC /* Pods-Eddystone_Tests-acknowledgements.plist */,
+				220844B519CEEB5724D7AA48003C545D /* Pods-Eddystone_Tests-dummy.m */,
+				D1B2C16D58487A620C09BB930A3DA85E /* Pods-Eddystone_Tests-frameworks.sh */,
+				D4EA497A5F8D528F82F7A4727EE0717C /* Pods-Eddystone_Tests-resources.sh */,
+				512CFA903BD8C51EB7B869483DE9D97C /* Pods-Eddystone_Tests-umbrella.h */,
+				902F61C9944CBAEEFAA3BB63D9B2B14D /* Pods-Eddystone_Tests.debug.xcconfig */,
+				B4F3DE46012F66BA8236C7A22E4F559F /* Pods-Eddystone_Tests.release.xcconfig */,
 			);
-			name = Frameworks;
+			name = "Pods-Eddystone_Tests";
+			path = "Target Support Files/Pods-Eddystone_Tests";
+			sourceTree = "<group>";
+		};
+		7A93B7DBAE20B48DD6FE532E2259EDBB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4BF7E245E7394FFCB9FF7FA3DCA5709A /* Pods-Eddystone_Example */,
+				599B9318DE19E0ADFE1F99ADC9C6536A /* Pods-Eddystone_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7C273064CC39E1584C98DE58B1B9F47F /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F42BE35D13438FEBA7750845BA9D7A8F /* Eddystone */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
-				C88113A79685B4EFEE7BAD12896829F7 /* Podfile */,
-				0720760E6FAA87218C034E98CCD3509B /* Development Pods */,
-				5E1F3384B1B39575144FEBFCF3210CCC /* Frameworks */,
-				FCC6F965540745142F6675EF7C9E0E2D /* Pods */,
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				7C273064CC39E1584C98DE58B1B9F47F /* Development Pods */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				FF40BAD558B29F4D04A6146DF39E62E9 /* Pods */,
 				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
-				D871C749CBB672E76A502DD5E90F9842 /* Targets Support Files */,
+				7A93B7DBAE20B48DD6FE532E2259EDBB /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		AE3C420F843D28CC19CB40DCE9D7D8D1 /* iOS */ = {
+		9014D97319A2F3756E0E40B749267499 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				63197C3F7F1B301E0153BE777EAA9358 /* CoreBluetooth.framework */,
-				C53C8C7EB304BB437D2149AC17A0D082 /* Foundation.framework */,
-				978034C0138DF7B2DC96DB9F6D4ABF5B /* UIKit.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		BBC6E596F40C237B1FDEE8CC2D7F101C /* Eddystone */ = {
-			isa = PBXGroup;
-			children = (
-				4208422D76D2CDC7FA26690D8E0506B1 /* Pod */,
-				BCC9F2C74B87D309B148BE24123994E6 /* Support Files */,
-			);
-			name = Eddystone;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		BCC9F2C74B87D309B148BE24123994E6 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				DCF6ED18F3A438F36BC0D9501707C59F /* Eddystone.modulemap */,
-				B809C8A6C21FE7BBD67109B04D209519 /* Eddystone.xcconfig */,
-				85FB954369155A7E7740F81BAF4E15E1 /* Eddystone-Private.xcconfig */,
-				A1BAF571AC45DD416B2F4BDAC70E8636 /* Eddystone-dummy.m */,
-				AC3822AA22CA63D8BE2369850F614EB8 /* Eddystone-prefix.pch */,
-				DC66024C7D1BACA06AAA92A450568B73 /* Eddystone-umbrella.h */,
-				CA3E2A9EE016A26A09405076D7596937 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/Eddystone";
-			sourceTree = "<group>";
-		};
-		C377AE1C1B8B762B001ADB59 /* Frames */ = {
-			isa = PBXGroup;
-			children = (
-				C377AE1D1B8B7638001ADB59 /* Frame.swift */,
-				C377AE1F1B8B76E3001ADB59 /* UrlFrame.swift */,
-				C377AE211B8B791D001ADB59 /* UidFrame.swift */,
-				C377AE231B8B7950001ADB59 /* TlmFrame.swift */,
-			);
-			name = Frames;
-			sourceTree = "<group>";
-		};
-		C3AC64931B62C02C00AC51A7 /* Extras */ = {
-			isa = PBXGroup;
-			children = (
-				C377AE251B8B98C3001ADB59 /* DoubleExtensions.swift */,
-				C377AE271B8B99A0001ADB59 /* IntExtensions.swift */,
-				C377AE2F1B8BA9B6001ADB59 /* NSTimeIntervalExtensions.swift */,
-				D6A7F01C1BCD1E8A94CB4ED83A4C9D79 /* CoreBluetoothExtensions.swift */,
-			);
-			name = Extras;
-			sourceTree = "<group>";
-		};
-		C3AC64961B62C08D00AC51A7 /* Objects */ = {
-			isa = PBXGroup;
-			children = (
-				C3AC64941B62C08000AC51A7 /* Object.swift */,
-				C3AC64971B62C09700AC51A7 /* Url.swift */,
-				C377AE291B8B9EAB001ADB59 /* Uid.swift */,
-				C377AE2D1B8BA2B0001ADB59 /* Generic.swift */,
-			);
-			name = Objects;
-			sourceTree = "<group>";
-		};
-		C92BBAE029B03035A11D5E9A609DBBE3 /* SignalStrength */ = {
-			isa = PBXGroup;
-			children = (
-				6E17708A47753D1B4FD7B0E1551F9AE3 /* SignalStrengthView.swift */,
-				F6CAAE74E785568954B1C592A85D6695 /* Support Files */,
-			);
-			path = SignalStrength;
-			sourceTree = "<group>";
-		};
-		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				96C96360B4DF1C05B75DDDC434784B9B /* Eddystone.bundle */,
-				43056A4326E12333B05E4251E52AA77D /* Eddystone.framework */,
-				16FBAF2877D50A4CF87316CABB551384 /* Pods_Eddystone_Example.framework */,
-				92261D18A46F7795AA208BE0AFB6D7ED /* Pods_Eddystone_Tests.framework */,
-				F19466BAB28CB02C0CB527B1AAE4DA53 /* SignalStrength.bundle */,
-				B8CD5DEDCB263BB15E372E8CEE021A97 /* SignalStrength.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		D871C749CBB672E76A502DD5E90F9842 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				4C9E8EE8CA82007499A9E8FB88127863 /* Pods-Eddystone_Example */,
-				0981531E1CB5CE749A66DE1F59E784C9 /* Pods-Eddystone_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		F6CAAE74E785568954B1C592A85D6695 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				3BDE2EEA1546BF6C6C74D12BEC327760 /* Info.plist */,
-				A9B9F769959FC668236F447A8723E4CD /* SignalStrength.modulemap */,
-				1AEFEFFFA603FB00B4A99E5D048206C6 /* SignalStrength.xcconfig */,
-				6C1F3910D6C5DF884A299FB277111F9F /* SignalStrength-Private.xcconfig */,
-				38D0DB43343BDF884B37D59A9F297BE4 /* SignalStrength-dummy.m */,
-				BD9857EC32AD8A9A88E9F0771983EE80 /* SignalStrength-prefix.pch */,
-				267F36AC3909FCA7CC578D70AEFE54A9 /* SignalStrength-umbrella.h */,
+				9F7BC7D75DBA386FFB38A8A06B73E83C /* Info.plist */,
+				C14C139A8B1D614D41B21AFC4DB88584 /* SignalStrength.modulemap */,
+				1567D4E496952B3CD836C123FC9A48B0 /* SignalStrength.xcconfig */,
+				886007EA2A18F447EFAF7109249A041C /* SignalStrength-Private.xcconfig */,
+				C5056CE7CE8E67414C9D93ED95098397 /* SignalStrength-dummy.m */,
+				FC2B7C08759937248F9DAE8E6520ED1C /* SignalStrength-prefix.pch */,
+				F75CC38DE4E747876B484A77E84D29CB /* SignalStrength-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/SignalStrength";
 			sourceTree = "<group>";
 		};
-		FB6C7302BAF6CF12ECF4BC342D68D48B /* Classes */ = {
+		C881EA6025509D6FA2645CFBF2AC6F05 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				C377AE1C1B8B762B001ADB59 /* Frames */,
-				C3AC64931B62C02C00AC51A7 /* Extras */,
-				6B0AA9BEEC1033D2E76CD585BEC39E61 /* Beacon.swift */,
-				53904BB588FF15AF8E9E3C1B696E6B65 /* Global.swift */,
-				4691CE6A08F3DD5E767EE24056CBABE1 /* Scanner.swift */,
-				C3AC64961B62C08D00AC51A7 /* Objects */,
+				693FAD2E7D12CC4E0FF8AC99D07C51E7 /* Eddystone.modulemap */,
+				4710957546E3D703F140FD1C2F9D2E52 /* Eddystone.xcconfig */,
+				11ED379144CB89A0F164E55D8644340F /* Eddystone-Private.xcconfig */,
+				253D315CBFF4F3C1754786AD389B0806 /* Eddystone-dummy.m */,
+				AF703E089C7B7879AACF60D0D4030AE2 /* Eddystone-prefix.pch */,
+				348201FF3C2D5AFEAE2001F89C25D02F /* Eddystone-umbrella.h */,
+				3F8C1E429F3F0257EF082CC0A874D8C1 /* Info.plist */,
 			);
-			path = Classes;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Eddystone";
 			sourceTree = "<group>";
 		};
-		FCC6F965540745142F6675EF7C9E0E2D /* Pods */ = {
+		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C92BBAE029B03035A11D5E9A609DBBE3 /* SignalStrength */,
+				B9EFFD22B5AF92395184D8E3A0D9F8C0 /* Eddystone.bundle */,
+				5DE749AA1BFE673C52EDC873F7E12A9E /* Eddystone.framework */,
+				0A3E516773D600A0C07B4B7F00D3F6EA /* Pods_Eddystone_Example.framework */,
+				91FD2CD3215A98C3C7839689FB229FD9 /* Pods_Eddystone_Tests.framework */,
+				2B94A56027EDDCE74A51761F0021F2B8 /* SignalStrength.bundle */,
+				EAFE13090D991DCED29518BCE6CA606B /* SignalStrength.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F42BE35D13438FEBA7750845BA9D7A8F /* Eddystone */ = {
+			isa = PBXGroup;
+			children = (
+				16B62A78681A5554CD05692C574B83DB /* Pod */,
+				C881EA6025509D6FA2645CFBF2AC6F05 /* Support Files */,
+			);
+			name = Eddystone;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		FF40BAD558B29F4D04A6146DF39E62E9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				48EB62639742EB1C41EF46959A92224E /* SignalStrength */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -404,67 +380,104 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		32C879D470D21A588F45B85941CBF1B4 /* Headers */ = {
+		1580E6F3CECD539C6B4ECEE3B7E90855 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				551DC12DD5E4B1FDC3D008A97C56BA5E /* Pods-Eddystone_Example-umbrella.h in Headers */,
+				5325EA82C63BCEBACA4E68D70726868D /* SignalStrength-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C109A69757D3C5E7B606ADFE56117FE6 /* Headers */ = {
+		2DDF023DD6F0F5C58B7D4DC3040EDF59 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12A99ED4CB792226F5CF73F98696A02D /* SignalStrength-umbrella.h in Headers */,
+				54540601DFFDD9EF45DA2D3740BF954F /* Eddystone-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DFA5EB0329022FF9A735E40D3AF844ED /* Headers */ = {
+		6A3111F04BB110A6E7BDB4CF5F284227 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8562C2DB31C7EBE17BD97766808A599 /* Eddystone-umbrella.h in Headers */,
+				6D93EF24AE0E0A3AEEBEB0B4F2082751 /* Pods-Eddystone_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E97A1E0873966CF89350E6DC681FBDDC /* Headers */ = {
+		86902FE6AB688B1036EC5F715CA646D9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A163CD7D19FCAC69401AF1996AAA38D /* Pods-Eddystone_Tests-umbrella.h in Headers */,
+				BBC8B05732B046986664EA7294F1312D /* Pods-Eddystone_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		41FB29B33CF82A0E11AFC7CC07AA0760 /* Pods-Eddystone_Example */ = {
+		6099519713AEFB5B77D01B09B11C36C0 /* Pods-Eddystone_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1F0073EB016C783E91C82DAA694F38A7 /* Build configuration list for PBXNativeTarget "Pods-Eddystone_Example" */;
+			buildConfigurationList = DFEA25F38C81AF225277364D6DF36228 /* Build configuration list for PBXNativeTarget "Pods-Eddystone_Tests" */;
 			buildPhases = (
-				6065D9FB1C7AB26F8D4D6F54C49245D1 /* Sources */,
-				E04C5F0C396B1FE15918BA36A3A3F7C5 /* Frameworks */,
-				32C879D470D21A588F45B85941CBF1B4 /* Headers */,
+				26A1AA6B1421B621045A41643602189E /* Sources */,
+				E7988FEB66156A9DE00D7114F2E3A13F /* Frameworks */,
+				86902FE6AB688B1036EC5F715CA646D9 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				0F20B4A04E4B0850EB23D5EA7A5AD520 /* PBXTargetDependency */,
-				FE509E713D0303977AAC4CB503EF6FF6 /* PBXTargetDependency */,
+				651561C31BE327E8B9024765F917BBE9 /* PBXTargetDependency */,
+			);
+			name = "Pods-Eddystone_Tests";
+			productName = "Pods-Eddystone_Tests";
+			productReference = 91FD2CD3215A98C3C7839689FB229FD9 /* Pods_Eddystone_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8217429BF0CD53E4539EDB2F103F7707 /* Pods-Eddystone_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35AF5A0A202ED794D6F969512C71DE14 /* Build configuration list for PBXNativeTarget "Pods-Eddystone_Example" */;
+			buildPhases = (
+				9D5AC44F10D77527B42848A981EF331A /* Sources */,
+				6DE8BB16989EDE23DB96B379C912392F /* Frameworks */,
+				6A3111F04BB110A6E7BDB4CF5F284227 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				015AAD1811835529DC04E07A8A93D9C5 /* PBXTargetDependency */,
+				E83AAB12F20E56E133422E1C095A03FD /* PBXTargetDependency */,
 			);
 			name = "Pods-Eddystone_Example";
 			productName = "Pods-Eddystone_Example";
-			productReference = 16FBAF2877D50A4CF87316CABB551384 /* Pods_Eddystone_Example.framework */;
+			productReference = 0A3E516773D600A0C07B4B7F00D3F6EA /* Pods_Eddystone_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		850ED1C8B0FFF2B7CFF6E4AFC7B2486F /* Eddystone-Eddystone */ = {
+		8CDDCA07A86564F0274E9C4540B61C54 /* Eddystone */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7BB1306017655E05CE483019E8189223 /* Build configuration list for PBXNativeTarget "Eddystone-Eddystone" */;
+			buildConfigurationList = 07C27D8B56C4F5B28FACD200875BCBC2 /* Build configuration list for PBXNativeTarget "Eddystone" */;
 			buildPhases = (
-				200DF84FFF3B98BA8F8A591D0E7B9F92 /* Sources */,
-				33D28EF194877D3C94439ACB1206E1A5 /* Frameworks */,
-				F30B813FCF75473C5E22EE5A4A6D13F6 /* Resources */,
+				8935F0A566E5902C2F08EB3D76AE1362 /* Sources */,
+				2517FF663EA8E503218D83CDBF3F68CF /* Frameworks */,
+				E532B82725552AB2A49FFC84537E9929 /* Resources */,
+				2DDF023DD6F0F5C58B7D4DC3040EDF59 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8ECC355127541EDBC6B2CC3A0486A00D /* PBXTargetDependency */,
+			);
+			name = Eddystone;
+			productName = Eddystone;
+			productReference = 5DE749AA1BFE673C52EDC873F7E12A9E /* Eddystone.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C2D92FC6E176FC534191399B13FACEDF /* Eddystone-Eddystone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0B03DE709071D185B5B21F1BDE2A05E /* Build configuration list for PBXNativeTarget "Eddystone-Eddystone" */;
+			buildPhases = (
+				C4BA4A32497E9F944C14B8079F6CD5F3 /* Sources */,
+				F7E33DECF6FE053E9B7221DE2F171B4D /* Frameworks */,
+				7C286452656CBF15CFD7DC8AA284237C /* Resources */,
 			);
 			buildRules = (
 			);
@@ -472,72 +485,16 @@
 			);
 			name = "Eddystone-Eddystone";
 			productName = "Eddystone-Eddystone";
-			productReference = 96C96360B4DF1C05B75DDDC434784B9B /* Eddystone.bundle */;
+			productReference = B9EFFD22B5AF92395184D8E3A0D9F8C0 /* Eddystone.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
-		95D51E60A011178023CE61432BEF36DD /* Pods-Eddystone_Tests */ = {
+		EBB1AEA63969384DE31E68A9E23987F8 /* SignalStrength-SignalStrength */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ACCE987F5C4D77E9242679D94BFC2EAF /* Build configuration list for PBXNativeTarget "Pods-Eddystone_Tests" */;
+			buildConfigurationList = 1A4A2FF05D7473A51B0BD491431B4C1F /* Build configuration list for PBXNativeTarget "SignalStrength-SignalStrength" */;
 			buildPhases = (
-				6F9751B2E688D45F47AD121472EF11D1 /* Sources */,
-				E529E5A63ADB13BC07D462083DDBB3EE /* Frameworks */,
-				E97A1E0873966CF89350E6DC681FBDDC /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				BEDCBDF60FD43204C6B261121CA823F0 /* PBXTargetDependency */,
-			);
-			name = "Pods-Eddystone_Tests";
-			productName = "Pods-Eddystone_Tests";
-			productReference = 92261D18A46F7795AA208BE0AFB6D7ED /* Pods_Eddystone_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		D2971E54F72A7CB14370EBE35E568EC3 /* SignalStrength */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = EF1FBD182768302A9440090B49ECB908 /* Build configuration list for PBXNativeTarget "SignalStrength" */;
-			buildPhases = (
-				7D2A5FCD7A9C61A94E24F989C8A429FB /* Sources */,
-				EA1B450525E8281DCFC7378A25178834 /* Frameworks */,
-				FDC9E9B3FF1092D589FEB4A85FCB6A21 /* Resources */,
-				C109A69757D3C5E7B606ADFE56117FE6 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B60B2CBDF452053D5D16C3F12810609F /* PBXTargetDependency */,
-			);
-			name = SignalStrength;
-			productName = SignalStrength;
-			productReference = B8CD5DEDCB263BB15E372E8CEE021A97 /* SignalStrength.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		E72D1D30AC78E5682DB9AE6578D1D861 /* Eddystone */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B6FA1FF54131F627A8B47F08DED96972 /* Build configuration list for PBXNativeTarget "Eddystone" */;
-			buildPhases = (
-				4EC226BC9F04770A1512920BBA8E3A1C /* Sources */,
-				CEFAB3F33E70F179CA5EE356E5FA38A1 /* Frameworks */,
-				09B497D88F9350CB5DCE7805316FED46 /* Resources */,
-				DFA5EB0329022FF9A735E40D3AF844ED /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F1417A53C0E696E09D909B2CAC8373FF /* PBXTargetDependency */,
-			);
-			name = Eddystone;
-			productName = Eddystone;
-			productReference = 43056A4326E12333B05E4251E52AA77D /* Eddystone.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		E841FA27B0A36915A5E185092F308060 /* SignalStrength-SignalStrength */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A54E244E84FB938A42B47E34BD5591C7 /* Build configuration list for PBXNativeTarget "SignalStrength-SignalStrength" */;
-			buildPhases = (
-				25A0D61AFB4A5071747E48191AFB1D50 /* Sources */,
-				83C2604BEE6B7B9745960837434135FD /* Frameworks */,
-				304FAA2230C4ECDF97800892E3C0294B /* Resources */,
+				D65D0F3422AE2881F78CC70A97D23DE2 /* Sources */,
+				430CF34B6CB1AD619C1B8A7630ECBB64 /* Frameworks */,
+				90B29F903456015CA3FF4DC223683348 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -545,8 +502,27 @@
 			);
 			name = "SignalStrength-SignalStrength";
 			productName = "SignalStrength-SignalStrength";
-			productReference = F19466BAB28CB02C0CB527B1AAE4DA53 /* SignalStrength.bundle */;
+			productReference = 2B94A56027EDDCE74A51761F0021F2B8 /* SignalStrength.bundle */;
 			productType = "com.apple.product-type.bundle";
+		};
+		ED89C913CE9FDF546C0B49E523092F0F /* SignalStrength */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1317634CD45D20E870621CCCC519DFF8 /* Build configuration list for PBXNativeTarget "SignalStrength" */;
+			buildPhases = (
+				76C7D4910495BF3959618D1D0E2679A7 /* Sources */,
+				E6D9428A7DC92505C3865680038083B3 /* Frameworks */,
+				596EBCA0399355A0DCDB9D537BE452C2 /* Resources */,
+				1580E6F3CECD539C6B4ECEE3B7E90855 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8328D4472083468DE3E6E92E75060CBC /* PBXTargetDependency */,
+			);
+			name = SignalStrength;
+			productName = SignalStrength;
+			productReference = EAFE13090D991DCED29518BCE6CA606B /* SignalStrength.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -569,167 +545,193 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E72D1D30AC78E5682DB9AE6578D1D861 /* Eddystone */,
-				850ED1C8B0FFF2B7CFF6E4AFC7B2486F /* Eddystone-Eddystone */,
-				41FB29B33CF82A0E11AFC7CC07AA0760 /* Pods-Eddystone_Example */,
-				95D51E60A011178023CE61432BEF36DD /* Pods-Eddystone_Tests */,
-				D2971E54F72A7CB14370EBE35E568EC3 /* SignalStrength */,
-				E841FA27B0A36915A5E185092F308060 /* SignalStrength-SignalStrength */,
+				8CDDCA07A86564F0274E9C4540B61C54 /* Eddystone */,
+				C2D92FC6E176FC534191399B13FACEDF /* Eddystone-Eddystone */,
+				8217429BF0CD53E4539EDB2F103F7707 /* Pods-Eddystone_Example */,
+				6099519713AEFB5B77D01B09B11C36C0 /* Pods-Eddystone_Tests */,
+				ED89C913CE9FDF546C0B49E523092F0F /* SignalStrength */,
+				EBB1AEA63969384DE31E68A9E23987F8 /* SignalStrength-SignalStrength */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		09B497D88F9350CB5DCE7805316FED46 /* Resources */ = {
+		596EBCA0399355A0DCDB9D537BE452C2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04938664F733A43BCCBB0BB6470DBBCB /* Eddystone.bundle in Resources */,
+				6771F8F967AA119F3D5DBA3240F70609 /* SignalStrength.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		304FAA2230C4ECDF97800892E3C0294B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F30B813FCF75473C5E22EE5A4A6D13F6 /* Resources */ = {
+		7C286452656CBF15CFD7DC8AA284237C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FDC9E9B3FF1092D589FEB4A85FCB6A21 /* Resources */ = {
+		90B29F903456015CA3FF4DC223683348 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACCF37ECECF615E62D619B17294BF195 /* SignalStrength.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E532B82725552AB2A49FFC84537E9929 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4CD254F802CBF0C5FB5D566AB2118FF /* Eddystone.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		200DF84FFF3B98BA8F8A591D0E7B9F92 /* Sources */ = {
+		26A1AA6B1421B621045A41643602189E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0928D12072635DB6FC15AB980B4966AD /* Pods-Eddystone_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76C7D4910495BF3959618D1D0E2679A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B1021220D248660BB8ED06A345FBCFD /* SignalStrength-dummy.m in Sources */,
+				56E3B5796C464D6C8937C0A3C4594346 /* SignalStrengthView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8935F0A566E5902C2F08EB3D76AE1362 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C513BD05118BFACBB76B62D6098C1EE2 /* Beacon.swift in Sources */,
+				61D9D86D07E8F059C3F1811F05B507F8 /* CoreBluetoothExtensions.swift in Sources */,
+				2E2700900793CA78FF4039C471BF60BC /* DoubleExtensions.swift in Sources */,
+				90F849247F571477530C84CDB0D07A9B /* Eddystone-dummy.m in Sources */,
+				84A78E8CF852BCB731EC782BEC49566A /* Frame.swift in Sources */,
+				EB99FA4CC554B42EE6F798EE11E7C36D /* Generic.swift in Sources */,
+				7169623122AF6CF9B72FCF0114418A3C /* Global.swift in Sources */,
+				2399E64ADDAF7D62AE3BEAEAD178EA5B /* IntExtensions.swift in Sources */,
+				52A737A66143BA3618A983CFCCDAFD46 /* NSTimeIntervalExtensions.swift in Sources */,
+				3185BADA3E55C571BAA733A4DB87FA54 /* Object.swift in Sources */,
+				0BAE60A98AAA40DCAB826CE30674ACF0 /* Scanner.swift in Sources */,
+				83837EB288A7AB33CC90C0FDC73D59EB /* TlmFrame.swift in Sources */,
+				F622D380B19FDAE38161EB9C7F994B66 /* Uid.swift in Sources */,
+				571B7479482C59AFE39F49E72A9175F2 /* UidFrame.swift in Sources */,
+				D649DA86F4AE0E04E96695EBC3B402C6 /* Url.swift in Sources */,
+				4B8603D7596489A4A6BCE71FF2B913C1 /* UrlFrame.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D5AC44F10D77527B42848A981EF331A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9818691E2FBB465E15F66DF98DB03DF0 /* Pods-Eddystone_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4BA4A32497E9F944C14B8079F6CD5F3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		25A0D61AFB4A5071747E48191AFB1D50 /* Sources */ = {
+		D65D0F3422AE2881F78CC70A97D23DE2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4EC226BC9F04770A1512920BBA8E3A1C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C377AE1E1B8B7638001ADB59 /* Frame.swift in Sources */,
-				C10213BE1E5A5F5C2D4DB4C0414EA894 /* Beacon.swift in Sources */,
-				6B5E7AC0A1B7D35BE5B64DE5F416B855 /* CoreBluetoothExtensions.swift in Sources */,
-				2B94302172D4681506257BB0AF0495B4 /* Eddystone-dummy.m in Sources */,
-				C377AE261B8B98C3001ADB59 /* DoubleExtensions.swift in Sources */,
-				C377AE2E1B8BA2B0001ADB59 /* Generic.swift in Sources */,
-				C3AC64951B62C08000AC51A7 /* Object.swift in Sources */,
-				2E5852B9395142B4D5CF8FDFF8F2735C /* Global.swift in Sources */,
-				C377AE281B8B99A0001ADB59 /* IntExtensions.swift in Sources */,
-				1651150BDD381B6EB7D044238DAC0CAB /* Scanner.swift in Sources */,
-				C377AE221B8B791D001ADB59 /* UidFrame.swift in Sources */,
-				C377AE2A1B8B9EAB001ADB59 /* Uid.swift in Sources */,
-				C377AE241B8B7950001ADB59 /* TlmFrame.swift in Sources */,
-				C3AC64981B62C09700AC51A7 /* Url.swift in Sources */,
-				C377AE301B8BA9B6001ADB59 /* NSTimeIntervalExtensions.swift in Sources */,
-				C377AE201B8B76E3001ADB59 /* UrlFrame.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6065D9FB1C7AB26F8D4D6F54C49245D1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7A9D1C1907ECB24D258350937567DF1E /* Pods-Eddystone_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6F9751B2E688D45F47AD121472EF11D1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9738E8F10C136B1E4A92B113F8E70E12 /* Pods-Eddystone_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7D2A5FCD7A9C61A94E24F989C8A429FB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A9030A681DCFE57154E520CB29004CC2 /* SignalStrength-dummy.m in Sources */,
-				D36654FF0C7FA583F6A687ABCF125806 /* SignalStrengthView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0F20B4A04E4B0850EB23D5EA7A5AD520 /* PBXTargetDependency */ = {
+		015AAD1811835529DC04E07A8A93D9C5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Eddystone;
-			target = E72D1D30AC78E5682DB9AE6578D1D861 /* Eddystone */;
-			targetProxy = 3D9D8AEC47DAF773AA6E843CB849D627 /* PBXContainerItemProxy */;
+			target = 8CDDCA07A86564F0274E9C4540B61C54 /* Eddystone */;
+			targetProxy = 826B03E7728621C1078FB35205B99C64 /* PBXContainerItemProxy */;
 		};
-		B60B2CBDF452053D5D16C3F12810609F /* PBXTargetDependency */ = {
+		651561C31BE327E8B9024765F917BBE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Eddystone;
+			target = 8CDDCA07A86564F0274E9C4540B61C54 /* Eddystone */;
+			targetProxy = 36F442581FA53E42A74A5C038F5874DD /* PBXContainerItemProxy */;
+		};
+		8328D4472083468DE3E6E92E75060CBC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "SignalStrength-SignalStrength";
-			target = E841FA27B0A36915A5E185092F308060 /* SignalStrength-SignalStrength */;
-			targetProxy = 182E4FF83C6383079574129CE526C5F0 /* PBXContainerItemProxy */;
+			target = EBB1AEA63969384DE31E68A9E23987F8 /* SignalStrength-SignalStrength */;
+			targetProxy = B200D40E743EDCDAAA58F80FD41E284A /* PBXContainerItemProxy */;
 		};
-		BEDCBDF60FD43204C6B261121CA823F0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Eddystone;
-			target = E72D1D30AC78E5682DB9AE6578D1D861 /* Eddystone */;
-			targetProxy = F978DD0ECC86B888238BE10B36968E3D /* PBXContainerItemProxy */;
-		};
-		F1417A53C0E696E09D909B2CAC8373FF /* PBXTargetDependency */ = {
+		8ECC355127541EDBC6B2CC3A0486A00D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Eddystone-Eddystone";
-			target = 850ED1C8B0FFF2B7CFF6E4AFC7B2486F /* Eddystone-Eddystone */;
-			targetProxy = A2108BED6419FB4EAE147A0E4D328F29 /* PBXContainerItemProxy */;
+			target = C2D92FC6E176FC534191399B13FACEDF /* Eddystone-Eddystone */;
+			targetProxy = 069E5F9EF5D6DE736CBC2415C526BBFF /* PBXContainerItemProxy */;
 		};
-		FE509E713D0303977AAC4CB503EF6FF6 /* PBXTargetDependency */ = {
+		E83AAB12F20E56E133422E1C095A03FD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SignalStrength;
-			target = D2971E54F72A7CB14370EBE35E568EC3 /* SignalStrength */;
-			targetProxy = C30C5D3ECB3C575B9A10BDC1B6099DB4 /* PBXContainerItemProxy */;
+			target = ED89C913CE9FDF546C0B49E523092F0F /* SignalStrength */;
+			targetProxy = 77050165691740C0B46CF44E0BDDFE33 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1747BFA16BD0FDE88212E22613BA2FA8 /* Release */ = {
+		027023ED26596DBCDCFA33DFC4F4B2B0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 85FB954369155A7E7740F81BAF4E15E1 /* Eddystone-Private.xcconfig */;
+			baseConfigurationReference = 11ED379144CB89A0F164E55D8644340F /* Eddystone-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = Eddystone;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		2256C2ABE8E0FE8F60F8B48B9350E658 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 886007EA2A18F447EFAF7109249A041C /* SignalStrength-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = SignalStrength;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		28879CA4820543E2C419AEE7F44890B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4F3DE46012F66BA8236C7A22E4F559F /* Pods-Eddystone_Tests.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1.0.0;
+				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Eddystone/Eddystone-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Eddystone/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-Eddystone_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Eddystone/Eddystone.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-Eddystone_Tests/Pods-Eddystone_Tests.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = Eddystone;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Eddystone_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -738,9 +740,9 @@
 			};
 			name = Release;
 		};
-		1A12FA263D1F2ADC4639AED815E7D569 /* Debug */ = {
+		2E1F35768A6372D44BF53C54C964EC6C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C506EAEB8E2E4BCEAEBD459F4F7A8BFE /* Pods-Eddystone_Example.debug.xcconfig */;
+			baseConfigurationReference = 9E1F0A209B1E5A24EF3922EF0555D0DF /* Pods-Eddystone_Example.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -751,7 +753,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-Eddystone_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Pods-Eddystone_Example/Pods-Eddystone_Example.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
@@ -768,92 +770,7 @@
 			};
 			name = Debug;
 		};
-		2E2FE3061BBF0178B73470F3A8AA31DF /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		441A29F7AE8136A712DECBD9D2477871 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6C1F3910D6C5DF884A299FB277111F9F /* SignalStrength-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1.0.0;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SignalStrength/SignalStrength-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SignalStrength/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SignalStrength/SignalStrength.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = SignalStrength;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		57015F5EFD7E37A477E720AA6B493645 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 85FB954369155A7E7740F81BAF4E15E1 /* Eddystone-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = Eddystone;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		6EF0A3D5840408BC0E8B6FFC9B4CE4DB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 85FB954369155A7E7740F81BAF4E15E1 /* Eddystone-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = Eddystone;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		8BD0950CC7213622BB48FEAFE5931E57 /* Debug */ = {
+		A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -885,28 +802,16 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		9640D6F76881424CC75CFC1D8B373170 /* Release */ = {
+		B8BA2F60C41D329A42CE125727C1219E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6C1F3910D6C5DF884A299FB277111F9F /* SignalStrength-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = SignalStrength;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		A01222F93FB59F85742F2E44826CC08D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 85FB954369155A7E7740F81BAF4E15E1 /* Eddystone-Private.xcconfig */;
+			baseConfigurationReference = 886007EA2A18F447EFAF7109249A041C /* SignalStrength-Private.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1.0.0;
@@ -915,26 +820,25 @@
 				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Eddystone/Eddystone-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Eddystone/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/SignalStrength/SignalStrength-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SignalStrength/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Eddystone/Eddystone.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = Eddystone;
+				MODULEMAP_FILE = "Target Support Files/SignalStrength/SignalStrength.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SignalStrength;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		AA05AE383418388D9054A8CCBD1935FF /* Debug */ = {
+		BB82101A141CC006556F6075E2A74311 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6758F0237DD55024CAB95EA040818576 /* Pods-Eddystone_Tests.debug.xcconfig */;
+			baseConfigurationReference = 902F61C9944CBAEEFAA3BB63D9B2B14D /* Pods-Eddystone_Tests.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -945,7 +849,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-Eddystone_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Pods-Eddystone_Tests/Pods-Eddystone_Tests.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
@@ -962,9 +866,9 @@
 			};
 			name = Debug;
 		};
-		CAC31A7050663AA504221DF5EC700F5C /* Release */ = {
+		C6CA431858228669B45A9F534A694B8C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 644AAE61780F833BDDB339017384B6E0 /* Pods-Eddystone_Example.release.xcconfig */;
+			baseConfigurationReference = 3335AE962D4D7D8F6731DF6142BE950C /* Pods-Eddystone_Example.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -975,7 +879,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-Eddystone_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Pods-Eddystone_Example/Pods-Eddystone_Example.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
@@ -991,38 +895,9 @@
 			};
 			name = Release;
 		};
-		E2D55D06CB6991E6C8A56EDE38581114 /* Release */ = {
+		CE2CF72141E12655384480F01076B9FC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 280D54A520B5BF2BBE7106C7944B9A7C /* Pods-Eddystone_Tests.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Eddystone_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-Eddystone_Tests/Pods-Eddystone_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_Eddystone_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		EA302702E38071520F35E3265D738DE3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6C1F3910D6C5DF884A299FB277111F9F /* SignalStrength-Private.xcconfig */;
+			baseConfigurationReference = 886007EA2A18F447EFAF7109249A041C /* SignalStrength-Private.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1.0.0;
@@ -1034,7 +909,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/SignalStrength/SignalStrength-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/SignalStrength/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/SignalStrength/SignalStrength.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
@@ -1048,9 +923,9 @@
 			};
 			name = Debug;
 		};
-		F5587A66AA293C2525D782A695649119 /* Debug */ = {
+		D754752F0371FB54649EEF8601BEB37C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6C1F3910D6C5DF884A299FB277111F9F /* SignalStrength-Private.xcconfig */;
+			baseConfigurationReference = 886007EA2A18F447EFAF7109249A041C /* SignalStrength-Private.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				PRODUCT_NAME = SignalStrength;
@@ -1060,14 +935,133 @@
 			};
 			name = Debug;
 		};
+		ECEF63704CD4B34D75473AB902F501C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11ED379144CB89A0F164E55D8644340F /* Eddystone-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = Eddystone;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		EFE42AA4765FA7B6EB5F08E7FA6EDA11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11ED379144CB89A0F164E55D8644340F /* Eddystone-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1.1.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Eddystone/Eddystone-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Eddystone/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Eddystone/Eddystone.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Eddystone;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FB45FFD90572718D82AB9092B750F0CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE7495B3D1BD89891F0226227CF13ADE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11ED379144CB89A0F164E55D8644340F /* Eddystone-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1.1.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Eddystone/Eddystone-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Eddystone/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Eddystone/Eddystone.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Eddystone;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1F0073EB016C783E91C82DAA694F38A7 /* Build configuration list for PBXNativeTarget "Pods-Eddystone_Example" */ = {
+		07C27D8B56C4F5B28FACD200875BCBC2 /* Build configuration list for PBXNativeTarget "Eddystone" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1A12FA263D1F2ADC4639AED815E7D569 /* Debug */,
-				CAC31A7050663AA504221DF5EC700F5C /* Release */,
+				EFE42AA4765FA7B6EB5F08E7FA6EDA11 /* Debug */,
+				FE7495B3D1BD89891F0226227CF13ADE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1317634CD45D20E870621CCCC519DFF8 /* Build configuration list for PBXNativeTarget "SignalStrength" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE2CF72141E12655384480F01076B9FC /* Debug */,
+				B8BA2F60C41D329A42CE125727C1219E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A4A2FF05D7473A51B0BD491431B4C1F /* Build configuration list for PBXNativeTarget "SignalStrength-SignalStrength" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D754752F0371FB54649EEF8601BEB37C /* Debug */,
+				2256C2ABE8E0FE8F60F8B48B9350E658 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1075,53 +1069,35 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8BD0950CC7213622BB48FEAFE5931E57 /* Debug */,
-				2E2FE3061BBF0178B73470F3A8AA31DF /* Release */,
+				A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */,
+				FB45FFD90572718D82AB9092B750F0CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7BB1306017655E05CE483019E8189223 /* Build configuration list for PBXNativeTarget "Eddystone-Eddystone" */ = {
+		35AF5A0A202ED794D6F969512C71DE14 /* Build configuration list for PBXNativeTarget "Pods-Eddystone_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6EF0A3D5840408BC0E8B6FFC9B4CE4DB /* Debug */,
-				57015F5EFD7E37A477E720AA6B493645 /* Release */,
+				2E1F35768A6372D44BF53C54C964EC6C /* Debug */,
+				C6CA431858228669B45A9F534A694B8C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A54E244E84FB938A42B47E34BD5591C7 /* Build configuration list for PBXNativeTarget "SignalStrength-SignalStrength" */ = {
+		C0B03DE709071D185B5B21F1BDE2A05E /* Build configuration list for PBXNativeTarget "Eddystone-Eddystone" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F5587A66AA293C2525D782A695649119 /* Debug */,
-				9640D6F76881424CC75CFC1D8B373170 /* Release */,
+				ECEF63704CD4B34D75473AB902F501C8 /* Debug */,
+				027023ED26596DBCDCFA33DFC4F4B2B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ACCE987F5C4D77E9242679D94BFC2EAF /* Build configuration list for PBXNativeTarget "Pods-Eddystone_Tests" */ = {
+		DFEA25F38C81AF225277364D6DF36228 /* Build configuration list for PBXNativeTarget "Pods-Eddystone_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AA05AE383418388D9054A8CCBD1935FF /* Debug */,
-				E2D55D06CB6991E6C8A56EDE38581114 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B6FA1FF54131F627A8B47F08DED96972 /* Build configuration list for PBXNativeTarget "Eddystone" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A01222F93FB59F85742F2E44826CC08D /* Debug */,
-				1747BFA16BD0FDE88212E22613BA2FA8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		EF1FBD182768302A9440090B49ECB908 /* Build configuration list for PBXNativeTarget "SignalStrength" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				EA302702E38071520F35E3265D738DE3 /* Debug */,
-				441A29F7AE8136A712DECBD9D2477871 /* Release */,
+				BB82101A141CC006556F6075E2A74311 /* Debug */,
+				28879CA4820543E2C419AEE7F44890B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -1,5 +1,5 @@
 PODS:
-  - Eddystone (1.0.0)
+  - Eddystone (1.1.0)
   - SignalStrength (1.0.0)
 
 DEPENDENCIES:
@@ -11,7 +11,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Eddystone: 428f9a67faadcf1511307c8467b535d9fad4f309
+  Eddystone: a99ced793fb3706331f621dcea06b109751d5b3c
   SignalStrength: 47939d3171fa13673e5209dc94c8c9ff978573f5
 
-COCOAPODS: 0.38.1
+COCOAPODS: 0.38.2
