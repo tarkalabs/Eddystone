@@ -27,7 +27,7 @@ To start the scanner, you will need to provide an `Eddystone.ScannerDelegate` de
 
 ```swift
 public protocol ScannerDelegate {
-func eddystoneNearbyDidChange()
+    func eddystoneNearbyDidChange()
 }
 ```
 
@@ -113,14 +113,14 @@ As Eddystone beacons become closer or farther away from the device, they will ne
 
 ```swift
 ExampleViewController: UIViewController, Eddystone.ScannerDelegate {
-var urls = Eddystone.Scanner.nearbyUrls
-var previousUrls: [Eddystone.Url] = []
+    var urls = Eddystone.Scanner.nearbyUrls
+    var previousUrls: [Eddystone.Url] = []
 
-func eddystoneNearbyDidChange() {
-self.previousUrls = self.urls
-self.urls = Eddystone.Scanner.nearbyUrls
+    func eddystoneNearbyDidChange() {
+    self.previousUrls = self.urls
+    self.urls = Eddystone.Scanner.nearbyUrls
 
-self.mainTableView.switchDataSourceFrom(self.previousUrls, to: self.urls, withAnimation: .Top)
+    self.mainTableView.switchDataSourceFrom(self.previousUrls, to: self.urls, withAnimation: .Top)
 }    
 }
 ```
