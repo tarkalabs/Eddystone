@@ -117,11 +117,11 @@ ExampleViewController: UIViewController, Eddystone.ScannerDelegate {
     var previousUrls: [Eddystone.Url] = []
 
     func eddystoneNearbyDidChange() {
-    self.previousUrls = self.urls
-    self.urls = Eddystone.Scanner.nearbyUrls
+        self.previousUrls = self.urls
+        self.urls = Eddystone.Scanner.nearbyUrls
 
-    self.mainTableView.switchDataSourceFrom(self.previousUrls, to: self.urls, withAnimation: .Top)
-}    
+        self.mainTableView.switchDataSourceFrom(self.previousUrls, to: self.urls, withAnimation: .Top)
+    }    
 }
 ```
 
