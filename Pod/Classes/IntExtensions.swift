@@ -11,12 +11,10 @@ extension Int {
         var int = 0
         
         for (offset, byte) in enumerate(bytes) {
-            let factor =  bytes.count - (offset + 1);
-            if factor > 0 {
-                int += Int(byte) * (256 * factor)
-            } else {
-                int += Int(byte)
-            }
+            let factor: Double = Double(bytes.count) - (Double(offset) + 1);
+            let size: Double = 256
+            
+            int += Int(byte) * Int(pow(size, factor))
         }
         
         return int
