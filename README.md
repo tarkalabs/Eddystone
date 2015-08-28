@@ -125,7 +125,7 @@ ExampleViewController: UIViewController, Eddystone.ScannerDelegate {
 }
 ```
 
-<https://gist.github.com/6d140c5ce2a701e4b710.git>
+<https://gist.github.com/tannernelson/6d140c5ce2a701e4b710>
 
 ### SignalStrength
 
