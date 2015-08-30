@@ -30,7 +30,7 @@ public class Beacon {
                 totalRssi += rssi
             }
             
-            var average: Double = totalRssi / Double(self.rssiBuffer.count)
+            let average: Double = totalRssi / Double(self.rssiBuffer.count)
             return average
         }
     }
@@ -73,12 +73,12 @@ public class Beacon {
     }
     
     //MARK: Calculations
-    class func calculateAccuracy(#txPower: Int, rssi: Double) -> Double {
+    class func calculateAccuracy(txPower txPower: Int, rssi: Double) -> Double {
         if rssi == 0 {
             return 0
         }
         
-        var ratio: Double = rssi / Double(txPower)
+        let ratio: Double = rssi / Double(txPower)
         if ratio < 1 {
             return pow(ratio, 10)
         } else {
@@ -147,7 +147,7 @@ public class Beacon {
             txPower = Beacon.txPowerFromBytes(bytes)
             
             if let type = type, txPower = txPower {
-                var beacon = Beacon(rssi: rssi, txPower: txPower, identifier: identifier)
+                let beacon = Beacon(rssi: rssi, txPower: txPower, identifier: identifier)
                 beacon.parseAdvertisementData(advertisementData, rssi: rssi)
                 return beacon
             }

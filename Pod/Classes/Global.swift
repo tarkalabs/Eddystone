@@ -4,7 +4,7 @@ public var logging = false
 
 func log(message: AnyObject) {
     if logging {
-        println("[Eddystone] \(message)")
+        print("[Eddystone] \(message)")
     }
 }
 

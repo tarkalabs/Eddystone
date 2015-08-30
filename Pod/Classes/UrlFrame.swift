@@ -48,7 +48,7 @@ class UrlFrame: Frame {
     override class func frameWithBytes(bytes: [Byte]) -> UrlFrame? {
         var urlString = ""
         
-        for (offset, byte) in enumerate(bytes) {
+        for (offset, byte) in bytes.enumerate() {
             switch offset {
             case 2:
                 if byte < UrlFrame.schemePrefixes.count {
@@ -58,8 +58,8 @@ class UrlFrame: Frame {
                 if byte < UrlFrame.urlEncodings.count {
                     urlString += UrlFrame.urlEncodings[byte]
                 } else {
-                    var unicode = UnicodeScalar(byte)
-                    var character = Character(unicode)
+                    let unicode = UnicodeScalar(byte)
+                    let character = Character(unicode)
                     urlString.append(character)
                 }
             default:

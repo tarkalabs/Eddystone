@@ -8,8 +8,8 @@ public class Url: Object {
         self.url = url
         
         var urlString = ""
-        if let absoluteString = url.absoluteString {
-            urlString = absoluteString
+        if let absoluteString:String? = url.absoluteString {
+            urlString = absoluteString!
         }
         
         super.init(signalStrength: signalStrength, identifier: urlString + identifier)

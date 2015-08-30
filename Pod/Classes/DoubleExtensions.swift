@@ -31,7 +31,7 @@ extension Double {
         var double: Double = 0
         
         var integer = Double(byte1)
-        var fraction = Double(byte2)
+        let fraction = Double(byte2)
         
         if integer >= 256 / 2 {
             integer -= 256

@@ -29,9 +29,9 @@ class UidFrame: Frame {
         var namespace = ""
         var instance = ""
         
-        for (offset, byte) in enumerate(bytes) {
+        for (offset, byte) in bytes.enumerate() {
             var hex = String(byte, radix: 16)
-            if count(hex) == 1 {
+            if hex.characters.count == 1 {
                 hex = "0" + hex
             }
             
@@ -46,7 +46,7 @@ class UidFrame: Frame {
             
         }
         
-        if count(namespace) == 20 && count(instance) == 12 {
+        if namespace.characters.count == 20 && instance.characters.count == 12 {
             return UidFrame(namespace: namespace, instance: instance)
         } else {
             log("Invalid UID frame")

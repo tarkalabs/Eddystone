@@ -11,10 +11,10 @@ import Foundation
 public extension NSTimeInterval {
     var readable: String {
         get {
-            var second = 1
-            var minute = second * 60
-            var hour = minute * 60
-            var day = hour * 24
+            let second = 1
+            let minute = second * 60
+            let hour = minute * 60
+            let day = hour * 24
             
             var num: Int = Int(abs(self))
             var unit = "day"
