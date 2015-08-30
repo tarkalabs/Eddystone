@@ -17,7 +17,7 @@ public class Scanner: NSObject {
             
             for beacon in self.beacons {
                 if let urlFrame = beacon.frames.url {
-                    let url = Url(url: urlFrame.url, signalStrength: beacon.signalStrength, identifier: beacon.identifier)
+                    let url = Url(url: urlFrame.url, signalStrength: beacon.signalStrength, identifier: beacon.identifier, beacon: beacon)
                     if let tlmFrame = beacon.frames.tlm {
                         url.parseTlmFrame(tlmFrame)
                     }
@@ -36,7 +36,7 @@ public class Scanner: NSObject {
             
             for beacon in self.beacons {
                 if let uidFrame = beacon.frames.uid {
-                    let uid = Uid(namespace: uidFrame.namespace, instance: uidFrame.instance, signalStrength: beacon.signalStrength, identifier: beacon.identifier)
+                    let uid = Uid(namespace: uidFrame.namespace, instance: uidFrame.instance, signalStrength: beacon.signalStrength, identifier: beacon.identifier, beacon: beacon)
                     if let tlmFrame = beacon.frames.tlm {
                         uid.parseTlmFrame(tlmFrame)
                     }
@@ -67,7 +67,7 @@ public class Scanner: NSObject {
                     url = urlFrame.url
                 }
                 
-                let generic = Generic(url: url, namespace: namespace, instance: instance, signalStrength: beacon.signalStrength, identifier: beacon.identifier)
+                let generic = Generic(url: url, namespace: namespace, instance: instance, signalStrength: beacon.signalStrength, identifier: beacon.identifier, beacon: beacon)
                 if let tlmFrame = beacon.frames.tlm {
                     generic.parseTlmFrame(tlmFrame)
                 }

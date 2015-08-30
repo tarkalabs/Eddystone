@@ -15,7 +15,7 @@ public class Generic: Object {
     }
     
     //MARK: Initializations
-    init(url: NSURL?, namespace: String?, instance: String?, signalStrength: Beacon.SignalStrength, identifier: String) {
+    init(url: NSURL?, namespace: String?, instance: String?, signalStrength: Beacon.SignalStrength, identifier: String, beacon: Beacon) {
         self.url = url
         self.namespace = namespace
         self.instance = instance
@@ -31,7 +31,7 @@ public class Generic: Object {
                 uid = namespace + instance
         }
         
-        super.init(signalStrength: signalStrength, identifier: urlString + uid + identifier)
+        super.init(signalStrength: signalStrength, identifier: urlString + uid + identifier, beacon: beacon)
     }
     
 }

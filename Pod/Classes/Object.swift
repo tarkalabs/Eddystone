@@ -8,9 +8,10 @@ public class Object: Equatable {
     private(set) public var temperature: Double?
     private(set) public var advertisementCount: Int?
     private(set) public var onTime: NSTimeInterval?
-    
+    private(set) public var beacon: Beacon
     //MARK: Initilizations
-    init (signalStrength: Beacon.SignalStrength, identifier: String) {
+    init (signalStrength: Beacon.SignalStrength, identifier: String, beacon: Beacon) {
+        self.beacon = beacon
         self.signalStrength = signalStrength
         self.identifier = identifier
     }
