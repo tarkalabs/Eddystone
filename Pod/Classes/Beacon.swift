@@ -21,9 +21,9 @@ public class Beacon {
     ) = (nil,nil,nil)
     
     //MARK: Properties
-    var txPower: Int
-    var identifier: String
-    var rssi: Double {
+    public var txPower: Int
+    public var identifier: String
+    public var rssi: Double {
         get {
             var totalRssi: Double = 0
             for rssi in self.rssiBuffer {
@@ -34,9 +34,9 @@ public class Beacon {
             return average
         }
     }
-    var signalStrength: SignalStrength = .Unknown
+    public var signalStrength: SignalStrength = .Unknown
     var rssiBuffer = [Double]()
-    var distance: Double {
+    public var distance: Double {
         get {
             return Beacon.calculateAccuracy(txPower: self.txPower, rssi: self.rssi)
         }
